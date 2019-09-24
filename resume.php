@@ -1,7 +1,5 @@
 <?php
-require('pcdus_header.php');
+include('index.php');
 ?>
-<body>
-<iframe src="resources/Paul_Curtis_Resume_July%202019.doc">
+<iframe src="resources/DOCS/Paul_Curtis_Resume_Sept_2019.doc" height="600px" width="800px">
 </iframe>
-</body>
