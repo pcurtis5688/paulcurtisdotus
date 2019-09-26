@@ -1,8 +1,7 @@
 <head>
     <title>PaulCurtis.US</title>
-    <link rel="stylesheet" href="http://localhost/PaulCurtisDOTUS/material-design-icons/"/>
-    <script src="http://localhost/PaulCurtisDOTUS/resources/mdl/material.js" type="application/javascript"></script>
-    <link type="text/css" rel="stylesheet" href="../resources/mdl/material.css"/>
+    <link rel="stylesheet" type="text/css" href="http://localhost/PaulCurtisDOTUS/resources/mdl/material.css"/>
+    <script type="text/javascript" src="http://localhost/PaulCurtisDOTUS/resources/mdl/material.js"></script>
     <style>
         .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
             display: block;
@@ -18,11 +17,11 @@
         }
 
         .mdl-layout__header-row {
-            background-color: purple;
+            background-color: black;
         }
 
         .mdl-layout__drawer {
-            background-color: purple;
+            background-color: black;
         }
 
         .mdl-layout-title {
@@ -33,42 +32,44 @@
             color: yellow;
         }
 
-        /*@font-face {*/
-        /*    font-family: 'Material Icons';*/
-        /*    font-style: normal;*/
-        /*    font-weight: 400;*/
-        /*    src: url(https://example.com/MaterialIcons-Regular.eot); !* For IE6-8 *!*/
-        /*    src: local('Material Icons'),*/
-        /*    local('MaterialIcons-Regular'),*/
-        /*    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),*/
-        /*    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),*/
-        /*    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');*/
-        /*}*/
+        @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: url('http://localhost/PaulCurtisDOTUS/resources/iconfonts/MaterialIcons-Regular.eot'); /* For IE6-8 */
+            src: local('Material Icons'),
+            local('MaterialIcons-Regular'),
+            url(http://localhost/PaulCurtisDOTUS/resources/iconfonts/MaterialIcons-Regular.woff2) format('woff2'),
+            url(http://localhost/PaulCurtisDOTUS/resources/iconfonts/MaterialIcons-Regular.woff) format('woff'),
+            url(http://localhost/PaulCurtisDOTUS/resources/iconfonts/MaterialIcons-Regular.ttf) format(' truetype ');
+        }
 
-        /*.material-icons {*/
-        /*    font-family: 'Material Icons';*/
-        /*    font-weight: normal;*/
-        /*    font-style: normal;*/
-        /*    font-size: 24px; !* Preferred icon size *!*/
-        /*    display: inline-block;*/
-        /*    line-height: 1;*/
-        /*    text-transform: none;*/
-        /*    letter-spacing: normal;*/
-        /*    word-wrap: normal;*/
-        /*    white-space: nowrap;*/
-        /*    direction: ltr;*/
 
-        /*    !* Support for all WebKit browsers. *!*/
-        /*    -webkit-font-smoothing: antialiased;*/
-        /*    !* Support for Safari and Chrome. *!*/
-        /*    text-rendering: optimizeLegibility;*/
+        .material-icons {
+            font-family: 'Material Icons', sans-serif;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 38px; /* Preferred icon size */
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+            color: #6200ea;
 
-        /*    !* Support for Firefox. *!*/
-        /*    -moz-osx-font-smoothing: grayscale;*/
+            /* Support for all WebKit browsers. */
+            -webkit-font-smoothing: antialiased;
+            /* Support for Safari and Chrome. */
+            text-rendering: optimizeLegibility;
 
-        /*    !* Support for IE. *!*/
-        /*    font-feature-settings: 'liga';*/
-        /*}*/
+            /* Support for Firefox. */
+            -moz-osx-font-smoothing: grayscale;
+
+            /* Support for IE. */
+            font-feature-settings: 'liga';
+        }
     </style>
 </head>
 <div class="demo-layout-transparent mdl-layout mdl-js-layout">
@@ -83,7 +84,9 @@
                 <a class="mdl-navigation__link" href="">
                     <i class="material-icons">home</i>
                     Home (Kansas, toto)</a>
-                <a class="mdl-navigation__link" href="">Resume</a>
+                <a class="mdl-navigation__link" href="">
+                    <i class="material-icons">assignment</i>
+                    Resume</a>
                 <a class="mdl-navigation__link" href="">Portfolio</a>
                 <a class="mdl-navigation__link" href="">Get in touch</a>
                 <a class="mdl-navigation__link" href="">Other Stuff</a>
@@ -93,7 +96,7 @@
     <div class="mdl-layout__drawer">
         <span class="mdl-layout-title">PaulCurtis.US</span>
         <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="../index.php">
+            <a class="mdl-navigation__link" href="http://localhost/PaulCurtisDOTUS/index.php">
                 Home (Kansas, toto)
             </a>
             <a class="mdl-navigation__link" href="" onclick="loadResumeContent();">Resume</a>
