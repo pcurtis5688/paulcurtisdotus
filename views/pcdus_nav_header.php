@@ -88,7 +88,7 @@
                     <i class="material-icons">assignment</i>
                     Resume</a>
                 <a class="mdl-navigation__link" href="">
-                    <i class="material-icons">http</i>
+                    <i class="material-icons">grade</i>
                     Portfolio</a>
                 <a class="mdl-navigation__link" href="">
                     <i class="material-icons">mail</i>
