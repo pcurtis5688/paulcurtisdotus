@@ -75,8 +75,8 @@
 <div class="demo-layout-transparent mdl-layout mdl-js-layout">
     <header class="mdl-layout__header mdl-layout__header--transparent">
         <div class="mdl-layout__header-row">
-            <!-- Title -->
-            <span class="mdl-layout-title">PaulCurtis.US</span>
+            <img src="http://localhost/paulcurtisdotus/resources/img/pcdussitebackgroundsept2019.png"
+                 alt="PaulCurtis.US" height="64px"/>
             <!-- Add spacer, to align navigation to the right -->
             <div class="mdl-layout-spacer"></div>
             <!-- Navigation -->
