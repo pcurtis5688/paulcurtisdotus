@@ -49,7 +49,7 @@
             font-family: 'Material Icons', sans-serif;
             font-weight: normal;
             font-style: normal;
-            font-size: 38px; /* Preferred icon size */
+            font-size: 42px; /* Preferred icon size */
             display: inline-block;
             line-height: 1;
             text-transform: none;
@@ -82,14 +82,20 @@
             <!-- Navigation -->
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" href="">
-                    <i class="material-icons">home</i>
+                    <i class="material-icons">language</i>
                     Home (Kansas, toto)</a>
                 <a class="mdl-navigation__link" href="">
                     <i class="material-icons">assignment</i>
                     Resume</a>
-                <a class="mdl-navigation__link" href="">Portfolio</a>
-                <a class="mdl-navigation__link" href="">Get in touch</a>
-                <a class="mdl-navigation__link" href="">Other Stuff</a>
+                <a class="mdl-navigation__link" href="">
+                    <i class="material-icons">http</i>
+                    Portfolio</a>
+                <a class="mdl-navigation__link" href="">
+                    <i class="material-icons">mail</i>
+                    Get in touch</a>
+                <a class="mdl-navigation__link" href="">
+                    <i class="material-icons">settings</i>
+                    Other Stuff</a>
             </nav>
         </div>
     </header>
