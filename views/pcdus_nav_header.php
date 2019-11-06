@@ -9,11 +9,7 @@
             flex-shrink: 0;
             padding: 16px 40px;
             margin: 0;
-            color: yellow;
-        }
-
-        .mdl-layout-title {
-            /*background-image: url('../PaulCurtisDotUS/resources/img/pcdussitebackgroundsept2019.png');*/
+            color: white;
         }
 
         .mdl-layout__header-row {
@@ -24,12 +20,8 @@
             background-color: black;
         }
 
-        .mdl-layout-title {
-            color: yellow;
-        }
-
         .mdl-navigation .mdl-navigation__link {
-            color: yellow;
+            color: white;
         }
 
         @font-face {
@@ -71,6 +63,12 @@
             font-feature-settings: 'liga';
         }
     </style>
+    <script type="text/javascript">
+        function loadResumeContent() {
+            resources / DOCS / Paul_Curtis_Resume_Sept_2019.doc;
+            this.getElementById("contentdiv").innerHTML("http://localhost/Paul_Curtis_Resume_Sept_2019.doc");
+        }
+    </script>
 </head>
 <div class="demo-layout-transparent mdl-layout mdl-js-layout">
     <header class="mdl-layout__header mdl-layout__header--transparent">
@@ -81,10 +79,8 @@
             <div class="mdl-layout-spacer"></div>
             <!-- Navigation -->
             <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="">
-                    <i class="material-icons">language</i>
-                    Home (Kansas, toto)</a>
-                <a class="mdl-navigation__link" href="">
+                <a class="mdl-navigation__link" href="/index.php">
+                    <i class="material-icons">home</i>Home
                     <i class="material-icons">assignment</i>
                     Resume</a>
                 <a class="mdl-navigation__link" href="">
@@ -100,15 +96,24 @@
         </div>
     </header>
     <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">PaulCurtis.US</span>
+        <img src="http://localhost/paulcurtisdotus/resources/img/pcdussitebackgroundsept2019.png"
+             alt="PaulCurtis.US"/>
         <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="http://localhost/PaulCurtisDOTUS/index.php">
-                Home (Kansas, toto)
-            </a>
-            <a class="mdl-navigation__link" href="" onclick="loadResumeContent();">Resume</a>
-            <a class="mdl-navigation__link" href="">Portfolio</a>
-            <a class="mdl-navigation__link" href="">Get in touch</a>
-            <a class="mdl-navigation__link" href="">Other Stuff</a>
+            <a class="mdl-navigation__link" href="/index.php">
+                <i class="material-icons">home</i>
+                Home</a>
+            <a class="mdl-navigation__link" href="">
+                <i class="material-icons">assignment</i>
+                Resume</a>
+            <a class="mdl-navigation__link" href="">
+                <i class="material-icons">grade</i>
+                Portfolio</a>
+            <a class="mdl-navigation__link" href="">
+                <i class="material-icons">mail</i>
+                Get in touch</a>
+            <a class="mdl-navigation__link" href="">
+                <i class="material-icons">settings</i>
+                Other Stuff</a>
         </nav>
     </div>
 </div>
