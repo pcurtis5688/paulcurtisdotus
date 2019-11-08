@@ -30,15 +30,12 @@
 	font-family: 'Material Icons';
 	font-style: normal;
 	font-weight: 400;
-	src:
-		url('http://localhost/PaulCurtisDOTUS/resources/iconfonts/MaterialIcons-Regular.eot');
+	src: url('resources/iconfonts/MaterialIcons-Regular.eot');
 	/* For IE6-8 */
 	src: local('Material Icons'), local('MaterialIcons-Regular'),
-		url(http://localhost/PaulCurtisDOTUS/resources/iconfonts/MaterialIcons-Regular.woff2)
-		format('woff2'),
-		url(http://localhost/PaulCurtisDOTUS/resources/iconfonts/MaterialIcons-Regular.woff)
-		format('woff'),
-		url(http://localhost/PaulCurtisDOTUS/resources/iconfonts/MaterialIcons-Regular.ttf)
+		url(resources/iconfonts/MaterialIcons-Regular.woff2) format('woff2'),
+		url(resources/iconfonts/MaterialIcons-Regular.woff) format('woff'),
+		url(resources/iconfonts/MaterialIcons-Regular.ttf)
 		format(' truetype ');
 }
 
@@ -75,19 +72,17 @@
 <div class="demo-layout-transparent mdl-layout mdl-js-layout">
 	<header class="mdl-layout__header mdl-layout__header--transparent">
 		<div class="mdl-layout__header-row">
-			<img
-				src="http://localhost/paulcurtisdotus/resources/img/pcdussitebackgroundsept2019.png"
-				alt="PaulCurtis.US" height="64px" />
+			<img height="64px" alt="PaulCurtis.US"
+				src="resources/img/pcdussitebackgroundsept2019.png" />
 			<!-- Add spacer to align navigation to the right -->
 			<div class="mdl-layout-spacer"></div>
 			<!-- Navigation -->
 			<nav class="mdl-navigation">
-				<a class="mdl-navigation__link" href="index.php">
-					<i class="material-icons">home</i>Home
-				</a> <a class="mdl-navigation__link"
-					href="resume.php"> <i
+				<a class="mdl-navigation__link" href="index.php"> <i
+					class="material-icons">home</i>Home
+				</a> <a class="mdl-navigation__link" href="resume.php"> <i
 					class="material-icons">assignment</i> Resume
-				</a> <a class="mdl-navigation__link" href=""> <i
+				</a> <a class="mdl-navigation__link" href="portfolio.php"> <i
 					class="material-icons">grade</i> Portfolio
 				</a> <a class="mdl-navigation__link" href=""> <i
 					class="material-icons">mail</i> Get in touch
@@ -98,17 +93,16 @@
 		</div>
 	</header>
 	<div class="mdl-layout__drawer">
-		<img
-			src="resources/img/pcdussitebackgroundsept2019.png"
+		<img src="resources/img/pcdussitebackgroundsept2019.png"
 			alt="PaulCurtis.US" />
 		<nav class="mdl-navigation">
-			<a class="mdl-navigation__link" href="index.php">
-				<i class="material-icons">home</i> Home
-			</a> <a class="mdl-navigation__link" href=""> <i
-				class="material-icons">assignment</i> Resume
+			<a class="mdl-navigation__link" href="index.php"> <i
+				class="material-icons">home</i> Home
 			</a> <a class="mdl-navigation__link" href="resume.php"> <i
+				class="material-icons">assignment</i> Resume
+			</a> <a class="mdl-navigation__link" href="portfolio.php"> <i
 				class="material-icons">grade</i> Portfolio
-			</a> <a class="mdl-navigation__link" href=""> <i
+			</a> <a class="mdl-navigation__link" href="portfolio.php"> <i
 				class="material-icons">mail</i> Get in touch
 			</a> <a class="mdl-navigation__link" href=""> <i
 				class="material-icons">settings</i> Other Stuff
