@@ -67,13 +67,13 @@
 			<nav class="mdl-navigation" style="font-size: smallest;">
 				<a class="mdl-navigation__link" href="index.php"> <i
 					class="material-icons">home</i>Home
-				</a> <a class="mdl-navigation__link" href="resume.php"> <i
-					class="material-icons">assignment</i>Experience
+				</a> <a class="mdl-navigation__link" href="portfolio-resume.php"> <i
+					class="material-icons">assignment</i>About & Portfolio
 				</a> <a class="mdl-navigation__link"
 					href="https://github.com/pcurtis5688" target="_blank"> <img
 					alt="GitHub Repo" src="resources/img/PCDUS-GitHub-Icon-Light64.png"
 					height="42px" width="42px" />
-				</a> <a class="mdl-navigation__link" href=""> <i
+				</a> <a class="mdl-navigation__link" href="contact.php"> <i
 					class="material-icons">mail</i>
 				</a>
 			</nav>
@@ -87,13 +87,13 @@
 		<nav class="mdl-navigation">
 			<a class="mdl-navigation__link" href="index.php"> <i
 				class="material-icons">home</i> Home
-			</a> <a class="mdl-navigation__link" href="resume.php"> <i
-				class="material-icons">assignment</i> Resume
+			</a> <a class="mdl-navigation__link" href="portfolio-resume.php"> <i
+				class="material-icons">assignment</i> About & Portfolio
 			</a> <a class="mdl-navigation__link"
 				href="https://github.com/pcurtis5688" target="_blank"> <img
 				alt="GitHub Repo" src="resources/img/PCDUS-GitHub-Icon-Light64.png"
 				height="36px" width="36px" /> [My] GitHub Repos 
-			</a> <a class="mdl-navigation__link" href="portfolio.php"> <i
+			</a> <a class="mdl-navigation__link" href="contact.php"> <i
 				class="material-icons">mail</i> Get in touch
 			</a>
 		</nav>

@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>|||||| pAULcURTIS.us hOME ||||||</title>
+<title>||| PaulCurtis.US - Home |||</title>
 <link rel="stylesheet" type="text/css"
 	href="http://localhost/PaulCurtisDOTUS/resources/mdl/material.min.css" />
 <script type="text/javascript"
