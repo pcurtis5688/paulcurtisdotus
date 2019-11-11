@@ -1,11 +1,12 @@
 <html>
 <head>
-<title>PaulCurtisDOTUS - Resume 2019</title>
-<style type="text/css">
-#resumediv {
-	min-height: 800px;
-}
-</style>
+<title>|||||| PaulCurtis.US - Experience ||||||</title>
+<link rel="stylesheet" type="text/css"
+	href="http://localhost/PaulCurtisDOTUS/resources/mdl/material.min.css" />
+<script type="text/javascript"
+	src="http://localhost/PaulCurtisDOTUS/resources/mdl/material.min.js"></script>
+<link rel='stylesheet' type='text/css'
+	href='http://localhhost/PaulCurtisDotUS/resources/style/pcdus_nov19_style.css" />
 </head>
 <body>
 <?php include_once 'view/pcdus_nav_header.php'; ?>

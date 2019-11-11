@@ -13,19 +13,15 @@
 	margin: 0;
 	color: white;
 }
-
 .mdl-layout__header-row {
 	background-color: black;
 }
-
 .mdl-layout__drawer {
 	background-color: black;
 }
-
 .mdl-navigation .mdl-navigation__link {
 	color: white;
 }
-
 @font-face {
 	font-family: 'Material Icons';
 	font-style: normal;
@@ -38,7 +34,6 @@
 		url(resources/iconfonts/MaterialIcons-Regular.ttf)
 		format(' truetype ');
 }
-
 .material-icons {
 	font-family: 'Material Icons', sans-serif;
 	font-weight: normal;
