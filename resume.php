@@ -11,7 +11,8 @@
 <?php include_once 'view/pcdus_nav_header.php'; ?>
 	<main class="mdl-layout__content">
 		<div id="resumediv">
-			<iframe src="/resources/DOCS/Paul_Curtis_Resume_Sept_2019.doc"></iframe>
+			<a> <iframe src="resources/DOCS/PaulCurtis_Dev_Resume_Nov_2019.docx"></iframe>
+			</a>
 		</div>
 	</main>
 </body>

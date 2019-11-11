@@ -66,21 +66,24 @@
 <div class="demo-layout-transparent mdl-layout mdl-js-layout">
 	<header class="mdl-layout__header mdl-layout__header--transparent">
 		<div class="mdl-layout__header-row">
-			<img height="36px" alt="PaulCurtis.US"
-				src="resources/img/pcdussitebackgroundsept2019.png" />x
+			<img width="400px" alt="PaulCurtis.US Logo"
+				src="resources/img/pcdussitebackgroundsept2019.png" />
 			<!-- Navigation -->
 			<nav class="mdl-navigation" style="font-size: smallest;">
 				<a class="mdl-navigation__link" href="index.php"> <i
 					class="material-icons">home</i>Home
 				</a> <a class="mdl-navigation__link" href="resume.php"> <i
-					class="material-icons">assignment</i> Resume
-				</a> <a class="mdl-navigation__link" href="portfolio.php"> <img
-					alt="GitHub Repo" src="resources/img/PCDUS-GitHub-icon-64px.png"
-					height="42px" width="42px" /> Portfolio
+					class="material-icons">assignment</i>Experience
+				</a> <a class="mdl-navigation__link"
+					href="https://github.com/pcurtis5688" target="_blank"> <img
+					alt="GitHub Repo" src="resources/img/PCDUS-GitHub-Icon-Light64.png"
+					height="42px" width="42px" />
 				</a> <a class="mdl-navigation__link" href=""> <i
-					class="material-icons">mail</i> Get in touch
+					class="material-icons">mail</i>
 				</a>
 			</nav>
+			<!-- Add spacer to align navigation to the right -->
+			<div class="mdl-layout-spacer"></div>
 		</div>
 	</header>
 	<div class="mdl-layout__drawer">
@@ -91,21 +94,13 @@
 				class="material-icons">home</i> Home
 			</a> <a class="mdl-navigation__link" href="resume.php"> <i
 				class="material-icons">assignment</i> Resume
-			</a> <a class="mdl-navigation__link" href="portfolio.php"> <i
-				class="material-icons">grade</i> Portfolio
+			</a> <a class="mdl-navigation__link"
+				href="https://github.com/pcurtis5688" target="_blank"> <img
+				alt="GitHub Repo" src="resources/img/PCDUS-GitHub-Icon-Light64.png"
+				height="36px" width="36px" /> [My] GitHub Repos 
 			</a> <a class="mdl-navigation__link" href="portfolio.php"> <i
 				class="material-icons">mail</i> Get in touch
-			</a> <a class="mdl-navigation__link" href=""> <i
-				class="material-icons">settings</i> Other Stuff
 			</a>
 		</nav>
 	</div>
 </div>
-<script type="text/javascript">
-        function loadResumeContent {
-            resources / DOCS / Paul_Curtis_Resume_Sept_2019.doc;
-            this.getElementById("contentdiv").innerHTML("http://localhost/Paul_Curtis_Resume_Sept_2019.doc");
-        }
-
-        loadResumeContent();
-    </script>
