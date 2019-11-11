@@ -1,9 +1,9 @@
 <head>
 <title>PaulCurtis.US</title>
 <link rel="stylesheet" type="text/css"
-	href="http://localhost/PaulCurtisDOTUS/resources/mdl/material.min.css" />
+	href="http://localhost/PaulCurtisDOTUS/resources/mdl/material.css" />
 <script type="text/javascript"
-	src="http://localhost/PaulCurtisDOTUS/resources/mdl/material.min.js"></script>
+	src="http://localhost/PaulCurtisDOTUS/resources/mdl/material.js"></script>
 <style>
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
 	display: block;
@@ -30,13 +30,8 @@
 	font-family: 'Material Icons';
 	font-style: normal;
 	font-weight: 400;
-	src: url('resources/iconfonts/MaterialIcons-Regular.eot');
-	/* For IE6-8 */
-	src: local('Material Icons'), local('MaterialIcons-Regular'),
-		url(resources/iconfonts/MaterialIcons-Regular.woff2) format('woff2'),
-		url(resources/iconfonts/MaterialIcons-Regular.woff) format('woff'),
-		url(resources/iconfonts/MaterialIcons-Regular.ttf)
-		format(' truetype ');
+	src:
+		url('http://localhost/PaulCurtisDOTUS/resources/iconfonts/MaterialIcons-Regular.eot');
 }
 
 .material-icons {
@@ -62,38 +57,49 @@
 	font-feature-settings: 'liga';
 }
 </style>
+<script type="text/javascript">
+        function loadResumeContent() {
+            resources / DOCS / Paul_Curtis_Resume_Sept_2019.doc;
+            this.getElementById("contentdiv").innerHTML("http://localhost/Paul_Curtis_Resume_Sept_2019.doc");
+        }
+    </script>
 </head>
 <div class="demo-layout-transparent mdl-layout mdl-js-layout">
 	<header class="mdl-layout__header mdl-layout__header--transparent">
 		<div class="mdl-layout__header-row">
-			<img height="36px" alt="PaulCurtis.US"
-				src="resources/img/pcdussitebackgroundsept2019.png" />x
+			<!-- Add spacer to align navigation to the right -->
+			<div class="mdl-layout-spacer"></div>
+			<img src="resources/img/pcdussitebackgroundsept2019.png"
+				alt="pAULcURTIS.us" height="64px" />
 			<!-- Navigation -->
-			<nav class="mdl-navigation" style="font-size: smallest;">
-				<a class="mdl-navigation__link" href="index.php"> <i
-					class="material-icons">home</i>Home
-				</a> <a class="mdl-navigation__link" href="resume.php"> <i
+			<nav class="mdl-navigation">
+				<a class="mdl-navigation__link" href="index.php">
+					<i class="material-icons">home</i>Home
+				</a> <a class="mdl-navigation__link"
+					href="../paulcurtisdotus/views/resume.php"> <i
 					class="material-icons">assignment</i> Resume
-				</a> <a class="mdl-navigation__link" href="portfolio.php"> <img
-					alt="GitHub Repo" src="resources/img/PCDUS-GitHub-icon-64px.png"
-					height="42px" width="42px" /> Portfolio
+				</a> <a class="mdl-navigation__link" href=""> <i
+					class="material-icons">grade</i> Portfolio
 				</a> <a class="mdl-navigation__link" href=""> <i
 					class="material-icons">mail</i> Get in touch
+				</a> <a class="mdl-navigation__link" href=""> <i
+					class="material-icons">settings</i> Other Stuff
 				</a>
 			</nav>
 		</div>
 	</header>
 	<div class="mdl-layout__drawer">
-		<img src="resources/img/pcdussitebackgroundsept2019.png"
+		<img
+			src="http://localhost/paulcurtisdotus/resources/img/pcdussitebackgroundsept2019.png"
 			alt="PaulCurtis.US" />
 		<nav class="mdl-navigation">
-			<a class="mdl-navigation__link" href="index.php"> <i
-				class="material-icons">home</i> Home
-			</a> <a class="mdl-navigation__link" href="resume.php"> <i
+			<a class="mdl-navigation__link" href="index.php">
+				<i class="material-icons">home</i> Home
+			</a> <a class="mdl-navigation__link" href=""> <i
 				class="material-icons">assignment</i> Resume
-			</a> <a class="mdl-navigation__link" href="portfolio.php"> <i
+			</a> <a class="mdl-navigation__link" href=""> <i
 				class="material-icons">grade</i> Portfolio
-			</a> <a class="mdl-navigation__link" href="portfolio.php"> <i
+			</a> <a class="mdl-navigation__link" href=""> <i
 				class="material-icons">mail</i> Get in touch
 			</a> <a class="mdl-navigation__link" href=""> <i
 				class="material-icons">settings</i> Other Stuff
@@ -101,11 +107,3 @@
 		</nav>
 	</div>
 </div>
-<script type="text/javascript">
-        function loadResumeContent {
-            resources / DOCS / Paul_Curtis_Resume_Sept_2019.doc;
-            this.getElementById("contentdiv").innerHTML("http://localhost/Paul_Curtis_Resume_Sept_2019.doc");
-        }
-
-        loadResumeContent();
-    </script>
