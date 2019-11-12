@@ -25,7 +25,7 @@ main .content_title {
 </head>
 <body>
 	<div id="navdiv">
-		<?php include_once('view/pcdus_nav_header.php'); ?>
+		<?php include_once('pcdus_nav_header.php'); ?>
 	</div>
 	<div id="contentdiv">
 		<main class="mdl-layout__content">

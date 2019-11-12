@@ -2,8 +2,7 @@
 <title>PaulCurtis.US</title>
 <link rel="stylesheet" type="text/css"
 	href="./resources/mdl/material.min.css" />
-<script type="text/javascript"
-	src="./resources/mdl/material.min.js"></script>
+<script type="text/javascript" src="./resources/mdl/material.min.js"></script>
 <style>
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
 	display: block;
@@ -76,8 +75,9 @@
 					class="material-icons">assignment</i><span style="color: #0F00f0;">Portfolio</span>
 				</a> <a class="mdl-navigation__link"
 					href="https://github.com/pcurtis5688" target="_blank"> <img
-					alt="GitHub Repo" src="./resources/img/PCDUS-GitHub-Icon-Light64.png"
-					height="42px" width="42px" />
+					alt="GitHub Repo"
+					src="./resources/img/PCDUS-GitHub-Icon-Light64.png" height="42px"
+					width="42px" />
 				</a> <a class="mdl-navigation__link" href="contact.php"> <i
 					class="material-icons">mail</i>
 				</a>
@@ -98,7 +98,7 @@
 				href="https://github.com/pcurtis5688" target="_blank"> <img
 				alt="https://github.com/pcurtis5688/"
 				src="./resources/img/PCDUS-GitHub-Icon-Light64.png" height="36px"
-				width="36px" /> <br>(@pcurtis5688)<br>
+				width="42px" /> <br>(@pcurtis5688)<br>
 			</a> <a class="mdl-navigation__link" href="contact.php"> <i
 				class="material-icons">mail</i>
 			</a>
