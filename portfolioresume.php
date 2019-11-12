@@ -8,9 +8,9 @@
 .mdl-layout__content {
 	padding: 8%;
 	background-color: black;
-	color: #fff59d;
+	color: #fff59d;     
 	min-height: 100%;
-	min-width:100%;
+	min-width: 100%;
 }
 
 .mdl-layout__content p {
@@ -19,8 +19,8 @@
 	color: #ffebee;
 }
 
-main .content_title {
-	font-size: 26pt;
+.contenttitle{
+	font-size: 18pt;
 }
 </style>
 </head>
@@ -28,10 +28,9 @@ main .content_title {
 	<div id='navdiv'>
 		<?php include_once('pcdus_nav_header.php'); ?>
 	</div>
-	<div style="none";></div>
 	<div id="contentdiv">
 		<main class="mdl-layout__content">
-			GitHub handle: pcurtis5688
+			<span class="contenttitle">GitHub handle: pcurtis5688 </span>
 		</main>
 	</div>
 </body>
