@@ -8,7 +8,7 @@
 .mdl-layout__content {
 	padding: 5%;
 	background-color: black;
-	color: #fff59d;
+	color: red;
 	min-height: 100%;
 	min-width: 100%;
 }
@@ -33,12 +33,9 @@ main .content_title {
 		<main class="mdl-layout__content">
 			<h3 style="font-family: monospace;">|||||| Contact Info ||||||</h3>
 			<p style="font-size: 24pt;">
-				<span style="margin-left: 15px;" />Email: <a
-					href="@mailto:jabberwockeye@gmail.com">jabberwockeye@gmail.com</a></span>
-				<br> <br> <span style="margin-left: 15px;" />Mobile: <a
-					href="@phone:412-716-0747">{+1} 412-716-0747</a><br> <br> <span
-					style="margin-left: 15px;" />LinkedIn: <a
-					href="https://linkedin.com/in/paulcphilly/">linkedin.com/in/paulcphilly/
+				Email: <a href="@mailto:jabberwockeye@gmail.com">jabberwockeye@gmail.com</a></span>
+				<br> <br>Mobile: <a href="@phone:412-716-0747">{+1} 412-716-0747</a><br>
+				<br> LinkedIn: <a href="https://linkedin.com/in/paulcphilly/">linkedin.com/in/paulcphilly/
 				</a> <img alt="Paul's LinkedIn"
 					src="./resources/img/pcdus-li-icon-sm.png"
 					style="width: 42px; height: 42px; margin-left: 15px;" /></a>

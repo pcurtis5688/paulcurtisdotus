@@ -8,7 +8,7 @@
 .mdl-layout__content {
 	padding: 8%;
 	background-color: black;
-	color: #fff59d;
+	color: red;
 	min-height: 100%;
 	min-width: 100%;
 }
@@ -30,9 +30,9 @@
 	</div>
 	<div id="contentdiv">
 		<main class="mdl-layout__content" >
-			<h3 style="font-family: monospace;">Resume & Portfolio Items</h3>
+			<h3 style="font-family: monospace;">|||||| Resume & Portfolio Items ||||||</h3>
 			<p style="font-family: monospace; font-size: larger;">
-			Download a copy of my resume <a href="#">here...</a></p>
+			<a href="#">My Resume</a></p>
 		</main>
 	</div>
 </body>

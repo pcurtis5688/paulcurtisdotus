@@ -8,7 +8,7 @@
 .mdl-layout__content {
 	padding: 8%;
 	background-color: black;
-	color: #fff59d;
+	color: red;
 	min-height: 100%;
 }
 
