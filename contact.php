@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>||| PaulCurtis.US - Contact Info |||</title>
+<title>|||||| PaulCurtis.US - Contact Info ||||||</title>
 <link rel="stylesheet" type="text/css"
 	href="./resources/mdl/material.min.css" />
 <script type="text/javascript" src="./resources/mdl/material.min.js"></script>
@@ -23,10 +23,6 @@
 main .content_title {
 	font-size: 26pt;
 }
-
-main h3 {
-	color: #3f51b5;
-}
 </style>
 </head>
 <body>
@@ -35,7 +31,7 @@ main h3 {
 	</div>
 	<div id="contentDiv">
 		<main class="mdl-layout__content">
-			<h3>||| Contact Info |||</h3	>
+			<h4>|||||| Contact Infoz ||||||</h4>
 			<p>
 				<span style="margin-left: 15px;" />Email: <a
 					href="@mailto:jabberwockeye@gmail.com">jabberwockeye@gmail.com</a></span>

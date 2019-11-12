@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>||| PaulCurtis.US - Portfolio & Resume |||</title>
+<title>|||||| PaulCurtis.US - Portfolio & Resume ||||||</title>
 <link rel="stylesheet" type="text/css"
 	href="./resources/mdl/material.min.css" />
 <script type="text/javascript" src="./resources/mdl/material.min.js"></script>
@@ -8,7 +8,7 @@
 .mdl-layout__content {
 	padding: 8%;
 	background-color: black;
-	color: #fff59d;     
+	color: #fff59d;
 	min-height: 100%;
 	min-width: 100%;
 }
@@ -19,7 +19,7 @@
 	color: #ffebee;
 }
 
-.contenttitle{
+.contenttitle {
 	font-size: 18pt;
 }
 </style>
@@ -30,7 +30,7 @@
 	</div>
 	<div id="contentdiv">
 		<main class="mdl-layout__content">
-			<span class="contenttitle">GitHub handle: pcurtis5688 </span>
+			<span class="contenttitle" style="font-style:;color: darkred;"><h3>Resume & Portfolio Items</h3></span>
 		</main>
 	</div>
 </body>

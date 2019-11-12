@@ -29,7 +29,9 @@ main .content_title {
 	</div>
 	<div id="contentdiv">
 		<main class="mdl-layout__content">
-			<span class="content_title">||| PaulCurtis.US - Home |||</span><br><br>
+			<span class="content_title">
+				<h4>|||||| Home ||||||</h4>
+			</span> <br> <br>
 			<p>1914 translation by H. Rackham "But I must explain to you how all
 				this mistaken idea of denouncing pleasure and praising pain was born
 				and I will give you a complete account of the system, and expound
