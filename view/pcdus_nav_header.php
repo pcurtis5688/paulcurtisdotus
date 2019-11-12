@@ -1,9 +1,9 @@
 <head>
 <title>PaulCurtis.US</title>
 <link rel="stylesheet" type="text/css"
-	href="http://localhost/PaulCurtisDOTUS/resources/mdl/material.min.css" />
+	href="./resources/mdl/material.min.css" />
 <script type="text/javascript"
-	src="http://localhost/PaulCurtisDOTUS/resources/mdl/material.min.js"></script>
+	src="./resources/mdl/material.min.js"></script>
 <style>
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
 	display: block;
@@ -13,15 +13,19 @@
 	margin: 0;
 	color: white;
 }
+
 .mdl-layout__header-row {
 	background-color: black;
 }
+
 .mdl-layout__drawer {
 	background-color: black;
 }
+
 .mdl-navigation .mdl-navigation__link {
 	color: white;
 }
+
 @font-face {
 	font-family: 'Material Icons';
 	font-style: normal;
@@ -34,6 +38,7 @@
 		url(resources/iconfonts/MaterialIcons-Regular.ttf)
 		format(' truetype ');
 }
+
 .material-icons {
 	font-family: 'Material Icons', sans-serif;
 	font-weight: normal;
@@ -61,12 +66,12 @@
 <div class="demo-layout-transparent mdl-layout mdl-js-layout">
 	<header class="mdl-layout__header mdl-layout__header--transparent">
 		<div class="mdl-layout__header-row">
-			<img width="400px" alt="PaulCurtis.US Logo"
-				src="resources/img/pcdussitebackgroundsept2019.png" />
+			<a href="index.php"> <img width="400px" alt="PaulCurtis.US Logo"
+				src="resources/img/pcdussitebackgroundsept2019.png" /></a>
 			<!-- Navigation -->
-			<nav class="mdl-navigation" style="font-size: smallest;">
+			<nav class="mdl-navigation">
 				<a class="mdl-navigation__link" href="index.php"> <i
-					class="material-icons">home</i>Home
+					class="material-icons">home</i>
 				</a> <a class="mdl-navigation__link" href="portfolio-resume.php"> <i
 					class="material-icons">assignment</i>About & Portfolio
 				</a> <a class="mdl-navigation__link"
@@ -84,17 +89,18 @@
 	<div class="mdl-layout__drawer">
 		<img src="resources/img/pcdussitebackgroundsept2019.png"
 			alt="PaulCurtis.US" />
-		<nav class="mdl-navigation">
+		<nav class="mdl-navigation" style="text-align: center">
 			<a class="mdl-navigation__link" href="index.php"> <i
 				class="material-icons">home</i> Home
 			</a> <a class="mdl-navigation__link" href="portfolio-resume.php"> <i
 				class="material-icons">assignment</i> About & Portfolio
 			</a> <a class="mdl-navigation__link"
 				href="https://github.com/pcurtis5688" target="_blank"> <img
-				alt="GitHub Repo" src="resources/img/PCDUS-GitHub-Icon-Light64.png"
-				height="36px" width="36px" /> [My] GitHub Repos 
+				alt="https://github.com/pcurtis5688/"
+				src="resources/img/PCDUS-GitHub-Icon-Light64.png" height="36px"
+				width="36px" /> <br>(@pcurtis5688)<br>
 			</a> <a class="mdl-navigation__link" href="contact.php"> <i
-				class="material-icons">mail</i> Get in touch
+				class="material-icons">mail</i>
 			</a>
 		</nav>
 	</div>
