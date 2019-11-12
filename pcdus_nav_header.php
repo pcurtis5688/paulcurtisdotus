@@ -1,8 +1,5 @@
 <head>
 <title>PaulCurtis.US</title>
-<link rel="stylesheet" type="text/css"
-	href="./resources/mdl/material.min.css" />
-<script type="text/javascript" src="./resources/mdl/material.min.js"></script>
 <style>
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
 	display: block;
@@ -65,14 +62,14 @@
 <div class="demo-layout-transparent mdl-layout mdl-js-layout">
 	<header class="mdl-layout__header mdl-layout__header--transparent">
 		<div class="mdl-layout__header-row">
-			<a href="index.php"> <img width="400px" alt="PaulCurtis.US Logo"
+			<a href="index.php"> <img alt="paulcurtis.us:logo"
 				src="./resources/img/pcdussitebackgroundsept2019.png" /></a>
 			<!-- Navigation -->
 			<nav class="mdl-navigation">
 				<a class="mdl-navigation__link" href="index.php"
 					style="font-size: 14pt;"> <i class="material-icons">home</i>Home
-				</a> <a class="mdl-navigation__link" href="portfolioresume.php" style="font-size: 14pt;"><i
-					class="material-icons">assignment</i>Portfolio</a><a
+				</a> <a class="mdl-navigation__link" href="portfolioresume.php"
+					style="font-size: 14pt;"><i class="material-icons">assignment</i>Portfolio</a><a
 					class="mdl-navigation__link" href="https://github.com/pcurtis5688"
 					target="_blank"> <img alt="GitHub Repo"
 					src="./resources/img/PCDUS-GitHub-Icon-Light64.png" height="42px"
@@ -91,12 +88,12 @@
 			<a class="mdl-navigation__link" href="index.php"> <i
 				class="material-icons">home</i> Home
 			</a> <a class="mdl-navigation__link" href="portfolioresume.php"> <i
-				class="material-icons">assignment</i> Portfolio
+				class="material-icons">assignment</i>Portfolio/Resume
 			</a><a class="mdl-navigation__link"
 				href="https://github.com/pcurtis5688" target="_blank"> <img
 				alt="https://github.com/pcurtis5688/"
-				src="./resources/img/PCDUS-GitHub-Icon-Light64.png" height="42px"
-				width="42px" /> @pcurtis5688<br>
+				src="./resources/img/PCDUS-GitHub-Icon-Light64.png" height="36px"
+				width="36px" /> @pcurtis5688<br>
 			</a> <a class="mdl-navigation__link"
 				href="https://linkedin.com/in/paulcphilly/" target="_blank"><img
 				alt="LinkedIn" src="./resources/img/pcdus-li-icon-sm.png"

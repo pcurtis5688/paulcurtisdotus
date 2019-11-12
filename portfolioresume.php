@@ -1,8 +1,10 @@
 <html>
 <head>
-<title>|||||| PaulCurtis.US - Portfolio & Resume ||||||</title>
+<title>&lt;|paulcurtis.us - portfolio|&gt;</title>
 <link rel="stylesheet" type="text/css"
 	href="./resources/mdl/material.min.css" />
+<link rel="stylesheet" type="text/css"
+	href="./resources/style/pcdusnov2019style.css" />
 <script type="text/javascript" src="./resources/mdl/material.min.js"></script>
 <style>
 .mdl-layout__content {
@@ -11,6 +13,7 @@
 	color: red;
 	min-height: 100%;
 	min-width: 100%;
+	min-height: 100%;
 }
 
 .mdl-layout__content p {
@@ -29,10 +32,16 @@
 		<?php include_once('pcdus_nav_header.php'); ?>
 	</div>
 	<div id="contentdiv">
-		<main class="mdl-layout__content" >
-			<h3 style="font-family: monospace;">|||||| Resume & Portfolio Items ||||||</h3>
-			<p style="font-family: monospace; font-size: larger;">
-			<a href="#">My Resume</a></p>
+		<main class="mdl-layout__content">
+			<h3 style="font-family: monospace; font-size: 42pt;">
+				||Resume&nbsp;&&nbsp;Portfolio||</h3>
+			<p
+				style="font-family: monospace; font-size: larger; align-content: center;">
+				<i class="material-icons">assignment</i><a font
+					href="./resources/docs/PaulCurtis_Dev_Resume_Nov_2019.docx"
+					style="font-family: sans-serif; font-size: xx-large; width: 100%; text-align: center;">My
+					Resume</a>
+			</p>
 		</main>
 	</div>
 </body>

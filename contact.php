@@ -1,8 +1,10 @@
 <html>
 <head>
-<title>|||||| PaulCurtis.US - Contact Info ||||||</title>
+<title>&lt;|paulcurtis.us - contact info|&gt;</title>
 <link rel="stylesheet" type="text/css"
 	href="./resources/mdl/material.min.css" />
+<link rel="stylesheet" type="text/css"
+	href="./resources/style/pcdusnov2019style.css" />
 <script type="text/javascript" src="./resources/mdl/material.min.js"></script>
 <style>
 .mdl-layout__content {
@@ -10,6 +12,7 @@
 	background-color: black;
 	color: red;
 	min-height: 100%;
+	font-size: 42pt;
 	min-width: 100%;
 }
 
@@ -21,7 +24,12 @@
 }
 
 main .content_title {
-	font-size: 26pt;
+	font-size: 42pt;
+}
+
+main .content_body {
+	font-size: 32pt;
+	color: darkred;
 }
 </style>
 </head>
@@ -31,13 +39,13 @@ main .content_title {
 	</div>
 	<div id="contentDiv">
 		<main class="mdl-layout__content">
-			<h3 style="font-family: monospace;">|||||| Contact Info ||||||</h3>
-			<p style="font-size: 24pt;">
-				Email: <a href="@mailto:jabberwockeye@gmail.com">jabberwockeye@gmail.com</a></span>
-				<br> <br>Mobile: <a href="@phone:412-716-0747">{+1} 412-716-0747</a><br>
-				<br> LinkedIn: <a href="https://linkedin.com/in/paulcphilly/">linkedin.com/in/paulcphilly/
-				</a> <img alt="Paul's LinkedIn"
-					src="./resources/img/pcdus-li-icon-sm.png"
+			<h3 style="font-family: monospace; font-size: 42pt;">||Contact Info||</h3>
+			<p class="content_body">
+				Email: <a href="mailto:pcurtis5688@gmail.com">pcurtis5688@gmail.com</a>
+				<br> <br>Mobile: <a href="telephone:4127160747">{+1}412-716-0747</a>
+				<br> <br> LinkedIn: <a href="https://linkedin.com/in/paulcphilly/">linkedin.com/in/paulcphilly/
+				</a> <a href="https://linkedin.com/in/paulcphilly/" target="_blank"><img
+					alt="Paul's LinkedIn" src="./resources/img/pcdus-li-icon-sm.png"
 					style="width: 42px; height: 42px; margin-left: 15px;" /></a>
 			</p>
 
