@@ -31,7 +31,7 @@ main .content_title {
 	</div>
 	<div id="contentDiv">
 		<main class="mdl-layout__content">
-			<h3>|||||| Contact Info ||||||</h3>
+			<h3 style="font-family: monospace;">|||||| Contact Info ||||||</h3>
 			<p style="font-size: 24pt;">
 				<span style="margin-left: 15px;" />Email: <a
 					href="@mailto:jabberwockeye@gmail.com">jabberwockeye@gmail.com</a></span>
