@@ -6,7 +6,7 @@
 <script type="text/javascript" src="./resources/mdl/material.min.js"></script>
 <style>
 .mdl-layout__content {
-	padding: 8%;
+	padding: 5%;
 	background-color: black;
 	color: #fff59d;
 	min-height: 100%;
@@ -17,10 +17,15 @@
 	font-size: 16pt;
 	font-family: "Adobe Arabic", fantasy;
 	color: #ffebee;
+	align-content: center;
 }
 
 main .content_title {
 	font-size: 26pt;
+}
+
+main h3 {
+	color: #3f51b5;
 }
 </style>
 </head>
@@ -30,8 +35,18 @@ main .content_title {
 	</div>
 	<div id="contentDiv">
 		<main class="mdl-layout__content">
-			<br> Email: jabberwockeye@gmail.com LinkedIn:
-			https://linkedin.com/in/paulcphilly/ Ask privately for mobile number
+			<h3>||| Contact Info |||</h3	>
+			<p>
+				<span style="margin-left: 15px;" />Email: <a
+					href="@mailto:jabberwockeye@gmail.com">jabberwockeye@gmail.com</a></span>
+				<br> <br> <span style="margin-left: 15px;" />Mobile: <a
+					href="@phone:412-716-0747">{+1} 412-716-0747</a><br> <br> <span
+					style="margin-left: 15px;" />LinkedIn: <a
+					href="https://linkedin.com/in/paulcphilly/">linkedin.com/in/paulcphilly/
+				</a> <img alt="Paul's LinkedIn"
+					src="./resources/img/pcdus-li-icon-sm.png"
+					style="width: 42px; height: 42px; margin-left: 15px;" /></a>
+			</p>
 		</main>
 	</div>
 </body>
