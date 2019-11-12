@@ -10,7 +10,13 @@
 		<?php include_once('./view/pcdus_nav_header.php'); ?>
 	</div>
 	<div id="contentdiv">
-		<?php include_once('./view/pcdus_content_portfolioresume.php'); ?>
+		<main class="mdl-layout__content"
+			style="min-height: 100%; background-color: black;">
+			<span class="mdl-layout__title">My Public GitHub Repositories:</span>
+			https://github.com/pcurtis5688 <br> My Resume: <a
+				href="./resources/DOCS/PaulCurtis_Dev_Resume_Nov_2019.docx"
+				target="_blank" />
+		</main>
 	</div>
 </body>
 </html>

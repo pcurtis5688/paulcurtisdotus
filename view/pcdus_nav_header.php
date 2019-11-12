@@ -87,7 +87,7 @@
 		</div>
 	</header>
 	<div class="mdl-layout__drawer">
-		<img src="resources/img/pcdussitebackgroundsept2019.png"
+		<img src="./resources/img/pcdussitebackgroundsept2019.png"
 			alt="PaulCurtis.US" />
 		<nav class="mdl-navigation" style="text-align: center">
 			<a class="mdl-navigation__link" href="index.php"> <i
