@@ -29,8 +29,10 @@
 		<?php include_once('pcdus_nav_header.php'); ?>
 	</div>
 	<div id="contentdiv">
-		<main class="mdl-layout__content">
-			<span class="contenttitle" style="font-style:;color: darkred;"><h3>Resume & Portfolio Items</h3></span>
+		<main class="mdl-layout__content" >
+			<h3 style="font-family: monospace;">Resume & Portfolio Items</h3>
+			<p style="font-family: monospace; font-size: larger;">
+			Download a copy of my resume <a href="#">here...</a></p>
 		</main>
 	</div>
 </body>

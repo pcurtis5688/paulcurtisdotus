@@ -31,8 +31,8 @@ main .content_title {
 	</div>
 	<div id="contentDiv">
 		<main class="mdl-layout__content">
-			<h4>|||||| Contact Infoz ||||||</h4>
-			<p>
+			<h3>|||||| Contact Info ||||||</h3>
+			<p style="font-size: 24pt;">
 				<span style="margin-left: 15px;" />Email: <a
 					href="@mailto:jabberwockeye@gmail.com">jabberwockeye@gmail.com</a></span>
 				<br> <br> <span style="margin-left: 15px;" />Mobile: <a
@@ -43,6 +43,7 @@ main .content_title {
 					src="./resources/img/pcdus-li-icon-sm.png"
 					style="width: 42px; height: 42px; margin-left: 15px;" /></a>
 			</p>
+
 		</main>
 	</div>
 </body>
