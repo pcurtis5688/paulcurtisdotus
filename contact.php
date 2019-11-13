@@ -24,6 +24,7 @@
 	font-family: "Adobe Arabic", fantasy;
 	color: #ffebee;
 	align-content: center;
+	font: italic;
 }
 
 main .content_title {
@@ -33,6 +34,7 @@ main .content_title {
 main .content_body {
 	font-size: 32pt;
 	color: darkred;
+	font-style: italic;
 }
 </style>
 </head>
