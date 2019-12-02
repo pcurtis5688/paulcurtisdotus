@@ -1,63 +1,12 @@
 <head>
 <title>PaulCurtis.US</title>
-<style>
-.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
-	display: block;
-	-webkit-flex-shrink: 0;
-	flex-shrink: 0;
-	padding: 16px 40px;
-	margin: 0;
-	color: white;
-}
-
-.mdl-layout__header-row {
-	background-color: black;
-}
-
-.mdl-layout__drawer {
-	background-color: #000000;
-}
-
-.mdl-navigation .mdl-navigation__link {
-	color: red;
-}
-
-@font-face {
-	font-family: 'Material Icons';
-	font-style: normal;
-	font-weight: 400;
-	src: url('resources/iconfonts/MaterialIcons-Regular.eot');
-	/* For IE6-8 */
-	src: local('Material Icons'), local('MaterialIcons-Regular'),
-		url(resources/iconfonts/MaterialIcons-Regular.woff2) format('woff2'),
-		url(resources/iconfonts/MaterialIcons-Regular.woff) format('woff'),
-		url(resources/iconfonts/MaterialIcons-Regular.ttf)
-		format(' truetype ');
-}
-
-.material-icons {
-	font-family: 'Material Icons', sans-serif;
-	font-weight: normal;
-	font-style: normal;
-	font-size: 42px; /* Preferred icon size */
-	display: inline-block;
-	line-height: 1;
-	text-transform: none;
-	letter-spacing: normal;
-	word-wrap: normal;
-	white-space: nowrap;
-	direction: ltr;
-	color: #6200ea;
-	/* Support for all WebKit browsers. */
-	-webkit-font-smoothing: antialiased;
-	/* Support for Safari and Chrome. */
-	text-rendering: optimizeLegibility;
-	/* Support for Firefox. */
-	-moz-osx-font-smoothing: grayscale;
-	/* Support for IE. */
-	font-feature-settings: 'liga';
-}
-</style>
+<link rel="stylesheet" type="text/css"
+	href="./resources/mdl/material.min.css" />
+<script type="text/javascript" src="./resources/mdl/material.min.js"></script>
+<link href="./resources/style/pcdusnov2019.css" rel="stylesheet"
+	type="text/css" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
 </head>
 <body>
 	<div id="logorow"
@@ -65,7 +14,7 @@
 		<a href="index.php"><img alt="paulcurtis.us:logo"
 			src="./resources/img/pcdussitebackgroundsept2019.png" /></a>
 	</div>
-	<div class="demo-layout-transparent mdl-layout mdl-js-layout">
+	<div class="amdl-layout mdl-js-layout">
 		<header class="mdl-layout__header mdl-layout__header--transparent">
 			<div class="mdl-layout__header-row">
 				<!-- Navigation -->
@@ -114,5 +63,4 @@
 			</nav>
 		</div>
 	</div>
-
 </body>

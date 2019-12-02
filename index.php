@@ -4,8 +4,10 @@
 <link rel="stylesheet" type="text/css"
 	href="./resources/mdl/material.min.css" />
 <link rel="stylesheet" type="text/css"
-	href="./resources/style/pcdusnov2019style.css" />
+	href="./resources/style/pcdusnov2019.css" />
 <script type="text/javascript" src="./resources/mdl/material.min.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
 </head>
 <body>
 	<div id="navdiv">
@@ -13,7 +15,8 @@
 	</div>
 	<div id="contentdiv">
 		<main class="mdl-layout__content">
-			<h3 style="font-family: monospace; font-size: 42pt;">||Home||</h3>
+			<h3 style="font-family: monospace; font-size: 42pt;">|| paulcurtis.us
+				- home ||</h3>
 			<br>
 			<p style="font-size: 18pt; font-family: monospace;">1914 translation
 				by H. Rackham "But I must explain to you how all this mistaken idea

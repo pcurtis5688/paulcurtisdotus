@@ -1,16 +1,3 @@
-.mdl-layout__content {
-	padding: 8%;
-	background-color: black;
-	color: red;
-	min-height: 100%;
-}
-
-.mdl-layout__content p {
-	font-size: 16pt;
-	font-family: "Adobe Arabic", fantasy;
-	color: #ffebee;
-}
-
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
 	display: block;
 	-webkit-flex-shrink: 0;
@@ -25,24 +12,22 @@
 }
 
 .mdl-layout__drawer {
-	background-color: black;
+	background-color: #000000;
 }
 
 .mdl-navigation .mdl-navigation__link {
-	color: #3f51b5;
+	color: red;
 }
 
 @font-face {
 	font-family: 'Material Icons';
 	font-style: normal;
 	font-weight: 400;
-	src: url('resources/iconfonts/MaterialIcons-Regular.eot');
-	/* For IE6-8 */
 	src: local('Material Icons'), local('MaterialIcons-Regular'),
-		url(resources/iconfonts/MaterialIcons-Regular.woff2) format('woff2'),
-		url(resources/iconfonts/MaterialIcons-Regular.woff) format('woff'),
-		url(resources/iconfonts/MaterialIcons-Regular.ttf)
-		format(' truetype ');
+		url(/resources/iconfonts/MaterialIcons-Regular.woff2) format(' woff2'),
+		url(/resources/iconfonts/MaterialIcons-Regular.woff) format('woff'),
+		url(/resources/iconfonts/MaterialIcons-Regular.ttf) format('truetype');
+	src: url('resources/iconfonts/MaterialIcons-Regular.eot');
 }
 
 .material-icons {
@@ -66,4 +51,10 @@
 	-moz-osx-font-smoothing: grayscale;
 	/* Support for IE. */
 	font-feature-settings: 'liga';
+}
+
+.mdl-layout__content {
+	background-color: black;
+	color: white;
+	padding:1em;
 }
