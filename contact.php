@@ -18,8 +18,9 @@
 			<h4 style="font-family: monospace;">|| paulcurtis.us - contact ||</h4>
 			<p class="content_body">
 				Email: <a href="mailto:pcurtis5688@gmail.com">pcurtis5688@gmail.com</a>
-				<br> <br>Mobile: <a href="telephone:4127160747">{+1}412-716-0747</a>
-				<br> <br> LinkedIn: <a href="https://linkedin.com/in/paulcphilly/"
+				<br>
+				<br>Cell:&nbsp;<a href="tel:4127160747">412-716-0747</a> <br>
+				<br> LinkedIn:&nbsp;<a href="https://linkedin.com/in/paulcphilly/"
 					target="_blank">https://linkedin.com/in/paulcphilly/ </a> <a
 					href="https://linkedin.com/in/paulcphilly/" target="_blank"></a><br>
 				<br>GitHub: <a href="https://github.com/pcurtis5688/"
