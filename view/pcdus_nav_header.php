@@ -8,7 +8,7 @@
 					<div class="mdl-layout-spacer"></div>
 					<a class="mdl-navigation__link" href="index.php"> <i
 						class="material-icons">home</i>Home
-					</a> <a class="mdl-navigation__link" href="portfolioresume.php"><i
+					</a> <a class="mdl-navigation__link" href="portfolio.php"><i
 						class="material-icons">assignment</i>Portfolio</a> <a
 						class="mdl-navigation__link" href="https://github.com/pcurtis5688"
 						target="_blank"> <img alt="GitHub Repo"
@@ -30,7 +30,7 @@
 					src="./resources/img/pcdussitebackgroundsept2019.png" width="209px"></a> <a
 					class="mdl-navigation__link" href="index.php"><i
 					class="material-icons">home</i></a><a
-					class="mdl-navigation__link" href="portfolioresume.php"> <i
+					class="mdl-navigation__link" href="portfolio.php"> <i
 					class="material-icons">assignment</i><br>&nbsp;Portfolio
 				</a><a class="mdl-navigation__link"
 					href="https://github.com/pcurtis5688" target="_blank"> <img
