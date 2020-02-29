@@ -1,18 +1,6 @@
-<head>
-<title>PaulCurtis.US</title>
-<link rel="stylesheet" type="text/css"
-	href="./resources/mdl/material.min.css" />
-<link rel="stylesheet" type="text/css"
-	href=" resources/css/pcdusnov2019.css" />
-<script type="text/javascript" src="./resources/mdl/material.min.js"></script>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-	rel="stylesheet">
-</head>
 <body>
 	<div class="amdl-layout mdl-js-layout">
 		<header class="mdl-layout__header mdl-layout__header--transparent">
-			<a href="index.php"><img alt="logo"
-				src="resources/img/pcdussitebackgroundsept2019.png" /></a>
 			<div class="mdl-layout__header-row">
 				<!-- Navigation -->
 				<nav class="mdl-navigation">
@@ -37,22 +25,24 @@
 			</div>
 		</header>
 		<div class="mdl-layout__drawer">
-			<nav class="mdl-navigation">
-				<a class="mdl-navigation__link" href="index.php"><i
-					class="material-icons">home</i>Home </a><a
+			<nav class="mdl-navigation" >
+				<a href="index.php"><img alt="logo"
+					src="./resources/img/pcdussitebackgroundsept2019.png" width="209px"></a> <a
+					class="mdl-navigation__link" href="index.php"><i
+					class="material-icons">home</i></a><a
 					class="mdl-navigation__link" href="portfolioresume.php"> <i
-					class="material-icons">assignment</i>&nbsp;Portfolio
+					class="material-icons">assignment</i><br>&nbsp;Portfolio
 				</a><a class="mdl-navigation__link"
 					href="https://github.com/pcurtis5688" target="_blank"> <img
 					alt="https://github.com/pcurtis5688/"
 					src="./resources/img/PCDUS-GitHub-Icon-Light64.png" height="36px"
-					width="36px" />&nbsp;@pcurtis5688
+					width="36px" /><br>&nbsp;@pcurtis5688
 				</a><a class="mdl-navigation__link"
 					href="https://linkedin.com/in/paulcphilly/" target="_blank"><img
 					alt="LinkedIn" src="./resources/img/pcdus-li-icon-sm.png"
-					height="42px" width="42px"></img>&nbsp;LinkedIn </a><a
+					height="42px" width="42px"></img><br>&nbsp;LinkedIn </a><a
 					class="mdl-navigation__link" href="contact.php"> <i
-					class="material-icons">mail</i>&nbsp;Contact
+					class="material-icons">mail</i><br>&nbsp;Contact
 				</a>
 			</nav>
 		</div>

@@ -7,13 +7,14 @@
 	display: block;
 	-webkit-flex-shrink: 0;
 	flex-shrink: 0;
-	padding: 16px 40px;
+	padding: 8px 40px;
 	margin: 0;
 	color: white;
 }
 
 .mdl-layout__drawer {
 	background-color: black;
+	text-align:center;
 }
 
 @font-face {
@@ -59,4 +60,12 @@
 
 .content_body {
 	padding-left: 2em;
+}
+
+#navdiv > div > div > div.mdl-layout__drawer.is-visible {
+	width:25%;
+}
+
+.mdl-navigation {
+	color:black;
 }
