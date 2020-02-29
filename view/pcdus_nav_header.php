@@ -29,7 +29,7 @@
 				<a href="index.php"><img alt="logo"
 					src="./resources/img/pcdussitebackgroundsept2019.png" width="209px"></a> <a
 					class="mdl-navigation__link" href="index.php"><i
-					class="material-icons">home</i></a><a
+					class="material-icons">home</i><br>Home</a><a
 					class="mdl-navigation__link" href="portfolio.php"> <i
 					class="material-icons">assignment</i><br>&nbsp;Portfolio
 				</a><a class="mdl-navigation__link"

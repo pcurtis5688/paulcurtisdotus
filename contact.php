@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div id='navdiv'>
-		<?php include_once('pcdus_nav_header.php'); ?>
+		<?php include_once('view/pcdus_nav_header.php'); ?>
 	</div>
 	<div id="contentDiv">
 		<main class="mdl-layout__content">
