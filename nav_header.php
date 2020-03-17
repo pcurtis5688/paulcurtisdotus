@@ -25,10 +25,8 @@
 			</div>
 		</header>
 		<div class="mdl-layout__drawer">
-			<nav class="mdl-navigation" >
-				<a href="index.php"><img alt="logo"
-					src="./resources/img/pcdussitebackgroundsept2019.png" width="209px"></a> <a
-					class="mdl-navigation__link" href="index.php"><i
+			<nav class="mdl-navigation">
+				<a class="mdl-navigation__link" href="index.php"><i
 					class="material-icons">home</i><br>Home</a><a
 					class="mdl-navigation__link" href="portfolio.php"> <i
 					class="material-icons">assignment</i><br>&nbsp;Portfolio
@@ -36,7 +34,7 @@
 					href="https://github.com/pcurtis5688" target="_blank"> <img
 					alt="https://github.com/pcurtis5688/"
 					src="./resources/img/PCDUS-GitHub-Icon-Light64.png" height="36px"
-					width="36px" /><br>&nbsp;@pcurtis5688
+					width="36px" /><br>GitHub Repos
 				</a><a class="mdl-navigation__link"
 					href="https://linkedin.com/in/paulcphilly/" target="_blank"><img
 					alt="LinkedIn" src="./resources/img/pcdus-li-icon-sm.png"

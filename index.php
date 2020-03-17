@@ -11,9 +11,9 @@
 </head>
 <body>
 	<div id="navdiv">
-		<?php include_once('view/pcdus_nav_header.php'); ?>
+		<?php include_once('nav_header.php'); ?>
 	</div>
-	<div id="contentdiv" style="width: 100%; text-align: center;">
+	<div id="contentdiv" style="text-align: center;">
 		<main class="mdl-layout__content">
 			<a href="index.php"><img alt="logo"
 				src="./resources/img/pcdussitebackgroundsept2019.png" /></a>
