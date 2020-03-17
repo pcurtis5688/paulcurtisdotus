@@ -14,7 +14,7 @@
 
 .mdl-layout__drawer {
 	background-color: black;
-	text-align:center;
+	text-align: center;
 }
 
 @font-face {
@@ -62,10 +62,19 @@
 	padding-left: 2em;
 }
 
-#navdiv > div > div > div.mdl-layout__drawer.is-visible {
-	width:25%;
+#navdiv>div>div>div.mdl-layout__drawer.is-visible {
+	width: 25%;
 }
 
 .mdl-navigation {
-	color:black;
+	color: white;
+}
+
+.link-style {
+	color: #6200ea;
+}
+
+#contentdiv {
+	text-align: center;
+	background-color: black;
 }
