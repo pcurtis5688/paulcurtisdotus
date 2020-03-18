@@ -4,6 +4,7 @@
 <link rel="stylesheet" type="text/css"
 	href="./resources/mdl/material.min.css" />
 <script type="text/javascript" src="./resources/mdl/material.min.js"></script>
+<script type="module" src="resources/script/pcdus-src.js"></script>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
 	rel="stylesheet">
 <link rel="stylesheet" type="text/css"

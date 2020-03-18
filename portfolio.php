@@ -4,7 +4,7 @@
 <link rel="stylesheet" type="text/css"
 	href="./resources/mdl/material.min.css" />
 <script type="text/javascript" src="./resources/mdl/material.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="module" src="resources/script/pcdus-src.js"></script>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
 	rel="stylesheet">
 <link rel="stylesheet" type="text/css"
@@ -19,8 +19,9 @@
 	<div id="contentdiv" style="text-align: center;">
 		<main class="mdl-layout__content">
 			<a href="index.php"><img alt="logo"
-				src="./resources/img/pcdussitebackgroundsept2019.png" class="header_img_margins"/></a> <br> <a
-				font href="./resources/docs/PaulCurtis_Dev_Resume_Nov_2019.docx"
+				src="./resources/img/pcdussitebackgroundsept2019.png"
+				class="header_img_margins" /></a> <br> <a font
+				href="./resources/docs/PaulCurtis_Dev_Resume_Nov_2019.docx"
 				class="link-style"> Feel free to download a recent copy of my CV
 				here...</a><br> <br> <a href="https://github.com/pcurtis5688"
 				target="_blank" class="link-style"><img
