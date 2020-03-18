@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>|| paulcurtis.us - contact ||</title>
+<title>||contact||</title>
 <link rel="stylesheet" type="text/css"
 	href="./resources/mdl/material.min.css" />
 <script type="text/javascript" src="./resources/mdl/material.min.js"></script>
@@ -18,7 +18,7 @@
 	<div id="contentdiv"
 		style="background-color: black; text-align: center;">
 		<main class="mdl-layout__content">
-			<a href="index.php"><img alt="logo" class="header-img"
+			<a href="index.php"><img alt="logo" class="header_img_margins"
 				src="./resources/img/pcdussitebackgroundsept2019.png" /></a> <br>
 			Email: <a href="mailto:pcurtis5688@gmail.com">pcurtis5688@gmail.com</a>
 			<br> <br>Cell:&nbsp;<a href="tel:4127160747">412-716-0747</a> <br> <br>

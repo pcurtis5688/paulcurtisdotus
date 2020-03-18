@@ -31,19 +31,21 @@
 		<div class="mdl-layout__drawer">
 			<nav class="mdl-navigation">
 				<a class="mdl-navigation__link" href="index.php"><i
-					class="material-icons">home</i></a><a class="mdl-navigation__link"
-					href="portfolio.php"> <i class="material-icons">assignment</i><br>Portfolio
-				</a><a class="mdl-navigation__link" href="contact.php"> <i
-					class="material-icons">mail</i><br>Contact
-				</a><br> <a class="mdl-navigation__link"
+					class="material-icons  ">home</i><br>Home</a> <a
+					class="mdl-navigation__link" href="portfolio.php"> <i
+					class="material-icons">assignment</i><br>Portfolio
+				</a> <a class="mdl-navigation__link" href="contact.php"> <i
+					class="material-icons  ">mail</i><br>Contact
+				</a> <a class="mdl-navigation__link"
 					href="https://github.com/pcurtis5688" target="_blank"> <img
 					alt="https://github.com/pcurtis5688/"
 					src="./resources/img/PCDUS-GitHub-Icon-Light64.png" height="36px"
-					width="36px" /><br>GitHub Repos
-				</a><a class="mdl-navigation__link"
+					width="36px" class=" " /><br>My GitHub Repos
+				</a> <a class="mdl-navigation__link"
 					href="https://linkedin.com/in/paulcphilly/" target="_blank"><img
 					alt="LinkedIn" src="./resources/img/pcdus-li-icon-sm.png"
-					height="36px" width="36px"></img><br>&nbsp;LinkedIn </a>
+					height="36px" width="36px" class=" "></img><br>My LinkedIn
+				</a>
 			</nav>
 		</div>
 	</div>

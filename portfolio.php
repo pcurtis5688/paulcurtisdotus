@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>&lt;|paulcurtis.us - portfolio|&gt;</title>
+<title>||portfolio||</title>
 <link rel="stylesheet" type="text/css"
 	href="./resources/mdl/material.min.css" />
 <script type="text/javascript" src="./resources/mdl/material.min.js"></script>
@@ -19,7 +19,7 @@
 	<div id="contentdiv" style="text-align: center;">
 		<main class="mdl-layout__content">
 			<a href="index.php"><img alt="logo"
-				src="./resources/img/pcdussitebackgroundsept2019.png" /></a> <br> <a
+				src="./resources/img/pcdussitebackgroundsept2019.png" class="header_img_margins"/></a> <br> <a
 				font href="./resources/docs/PaulCurtis_Dev_Resume_Nov_2019.docx"
 				class="link-style"> Feel free to download a recent copy of my CV
 				here...</a><br> <br> <a href="https://github.com/pcurtis5688"
