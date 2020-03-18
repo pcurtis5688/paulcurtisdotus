@@ -49,6 +49,14 @@ html, body, header, .view {
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
 	:not
 	
 	
@@ -57,7 +65,15 @@ html, body, header, .view {
 	
 	
 	
+	
+	
+	
+	
 	 
+	
+	
+	
+	
 	
 	
 	
@@ -74,7 +90,15 @@ html, body, header, .view {
 	
 	
 	
+	
+	
+	
+	
 	 
+	
+	
+	
+	
 	
 	
 	
@@ -99,6 +123,14 @@ html, body, header, .view {
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
 	:
 	
 	
@@ -107,7 +139,15 @@ html, body, header, .view {
 	
 	
 	
+	
+	
+	
+	
 	 
+	
+	
+	
+	
 	
 	
 	
@@ -123,7 +163,15 @@ html, body, header, .view {
 	
 	
 	
+	
+	
+	
+	
 	 
+	
+	
+	
+	
 	
 	
 	
@@ -133,6 +181,14 @@ html, body, header, .view {
 	
 	!
 	important
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -189,9 +245,10 @@ html, body, header, .view {
 			<!-- Right -->
 			<ul class="navbar-nav nav-flex-icons">
 				<li class="nav-item"><a
-					href="https://www.linkedin.com/in/paulcphilly/" class="nav-link"
-					target="_blank"> <i class="fab fa-linkedin"></i>
-				</a></li>
+					href="https://www.linkedin.com/in/paulcphilly/"
+					class="nav-link border border-light rounded" target="_blank"> <i
+						class="fab fa-linkedin"></i>My LinkedIn
+				</a></li>&nbsp;&nbsp;
 				<li class="nav-item"><a href="https://github.com/pcurtis5688/"
 					class="nav-link border border-light rounded" target="_blank"> <i
 						class="fab fa-github mr-2"></i>My GitHub Repos
@@ -290,8 +347,7 @@ html, body, header, .view {
 <!-- Full Page Intro -->
 
 <!--Main layout-->
-<main>
-	<div class="container" style="margin-top:8px;">
+<!-- <main> <div class="container" style="margin-top:8px;">-->
 <!-- 		<section> -->
 <!-- 			<h3 class="h3 text-center mb-5">About MDB</h3> -->
 <!-- 			<div class="row wow fadeIn"> -->
@@ -339,8 +395,8 @@ html, body, header, .view {
 <!-- 				</div> -->
 <!-- 			</div> -->
 <!-- 		</section> -->
-	</div>
-</main>
+<!-- 	</div> -->
+<!-- </main> -->
 <!--Main layout-->
 
 <!--Footer-->
@@ -359,19 +415,15 @@ html, body, header, .view {
 
 	<!-- Social icons -->
 	<div class="pb-4">
-		<a href="https://github.com/pcurtis5688" target="_blank"> <i
-			class="fab fa-github mr-3"></i>
-		</a> <a href="https://linkedin.com/in/paulcphilly/" target="_blank"> <i
-			class="fab fa-linkedin mr-3"></i>
+		<a href="https://github.com/pcurtis5688" target="_blank"> <img
+			alt="LI" src="resources/img/pcdus-li-icon-sm.png" height="64px"
+			width="64px" />
+		</a> <a href="https://linkedin.com/in/paulcphilly/" target="_blank"> <img
+			alt="Git" src="resources/img/GitHub-Mark-64px.png" />
 		</a>
 	</div>
-	<!-- Social icons -->
-
-	<!--Copyright-->
 	<div class="footer-copyright py-3">Paul Curtis || pcurtis5688@gmail.com
 		|| 412-716-0747</div>
-	<!--/.Copyright-->
-
 </footer>
 <!--/.Footer-->
 
