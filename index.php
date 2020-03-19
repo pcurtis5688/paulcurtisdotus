@@ -22,7 +22,7 @@
 <nav
 	class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
 	<div class="container">
-		<a class="navbar-brand" href="index.php"> <strong>PaulCurtis.us</strong>
+		<a class="navbar-brand" href="index.php"><strong>PaulCurtis.us</strong>
 		</a>
 
 		<!-- Collapse -->
@@ -33,36 +33,37 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
-		<!-- Links -->
+		<!-- NAVIGATION -->
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<!-- Left -->
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active"><a class="nav-link" href="#">Home <span
-						class="sr-only">(current)</span>
-				</a></li>
-				<li class="nav-item"><a class="nav-link" href="#"
-					onclick="changeTitle();">Contact Information</a></li>
-				<li class="nav-item"><a class="nav-link"
-					href="resources/docs/ResumePaulCurtisMarch2020_INDEED.pdf"
-					target="_blank">My CV / Resume</a></li>
-				<li class="nav-item"><a class="nav-link"
-					href="https://mdbootstrap.com/docs/jquery/" target="_blank">Portfolio</a></li>
-			</ul>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li id="navHomeLink" class="nav-item active"><a class="nav-link"
+						href="#" onclick="itemClicked('home');">Home <span class="sr-only">(current)</span>
+					</a></li>
+					<li id="navContactLink" class="nav-item"><a class="nav-link"
+						href="#" onclick="itemClicked('contact');">Contact Information</a></li>
+					<li class="nav-item"><a class="nav-link"
+						href="resources/docs/ResumePaulCurtisMarch2020_INDEED.pdf"
+						target="_blank">Resume </a></li>
+					<li class="nav-item"><a class="nav-link"
+						href="https://mdbootstrap.com/docs/jquery/" target="_blank">Portfolio</a></li>
+				</ul>
 
-			<!-- Right -->
-			<ul class="navbar-nav nav-flex-icons">
-				<li class="nav-item"><a
-					href="https://www.linkedin.com/in/paulcphilly/"
-					class="nav-link border border-light rounded" target="_blank"> <i
-						class="fab fa-linkedin"></i>My LinkedIn
-				</a></li>&nbsp;&nbsp;
-				<li class="nav-item"><a href="https://github.com/pcurtis5688/"
-					class="nav-link border border-light rounded" target="_blank"> <i
-						class="fab fa-github mr-2"></i>My GitHub Repos
-				</a></li>
-			</ul>
+				<!-- Right -->
+				<ul class="navbar-nav nav-flex-icons">
+					<li class="nav-item"><a
+						href="https://www.linkedin.com/in/paulcphilly/"
+						class="nav-link border border-light rounded" target="_blank"> <i
+							class="fab fa-linkedin"></i>My LinkedIn
+					</a></li>&nbsp;&nbsp;
+					<li class="nav-item"><a href="https://github.com/pcurtis5688/"
+						class="nav-link border border-light rounded" target="_blank"> <i
+							class="fab fa-github mr-2"></i>My GitHub Repos
+					</a></li>
+				</ul>
+			</div>
 		</div>
-	</div>
+
 </nav>
 
 <!-- PCDUS Home Page Contents -->
@@ -168,16 +169,22 @@
 	<div class="footer-copyright py-3">Paul Curtis || pcurtis5688@gmail.com
 		|| 412-716-0747</div>
 </footer>
-<!--/.Footer-->
 
-<!-- ----------------------SCRIPTS---------------------------------------------------- -->
 <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="js/popper.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/mdb.min.js"></script>
 <script type="text/javascript">
-    // Animations initialization
-    new WOW().init();
-  </script>
-</body>
+function itemClicked(name){
+	var navHomeLink = document.getElementById("navHomeLink");
+	var navContactLink = document.getElementById("navContactLink");
+	navHomeLink.classList.remove("active");
+	navContactLink.classList.remove("active");
+	if(name == 'home'){
+		navHomeLink.classList.add("active");
+	} else if (name == 'contact'){
+		navContactLink.classList.add("active");
+	}
+}
+</script></body>
 </html>
