@@ -125,24 +125,13 @@
 								<div class="text-center">
 									<button class="btn btn-indigo">Send</button>
 								</div>
-
 							</form>
-							<!-- Form -->
-
 						</div>
-
 					</div>
-					<!--/.Card-->
-
 				</div>
-				<!--Grid column-->
-
 			</div>
-			<!--Grid row-->
 		</div>
-		<!-- Content -->
 	</div>
-	<!-- Mask & flexbox options-->
 </div>
 
 <!------------------FOOTER ----------------------------->
