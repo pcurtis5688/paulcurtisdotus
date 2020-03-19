@@ -79,10 +79,34 @@
 	background-color: black;
 }
 
-.header_img_margins{
+.header_img_margins {
 	margin-bottom: 50px;
 }
 
-.nav_item_btm_margin{
-	margin-bottom:50px;
+.textalign {
+	text-align: center;
+}
+
+html, body, header, .view {
+	height: 100%;
+}
+
+@media ( max-width : 740px) {
+	html, body, header, .view {
+		height: 1000px;
+	}
+}
+
+@media ( min-width : 800px) and (max-width: 850px) {
+	html, body, header, .view {
+		height: 650px;
+	}
+}
+
+@media ( min-width : 800px) and (max-width: 850px) {
+	.navbar
+	:not
+	 (.top-nav-collapse ) {
+		background: #1C2331 !important;
+	}
 }
