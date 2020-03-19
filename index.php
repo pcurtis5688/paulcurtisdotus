@@ -147,7 +147,6 @@
 
 <!------------------FOOTER ----------------------------->
 <footer class="page-footer text-center font-small mt-4 wow fadeIn">
-	<!--Call to action-->
 	<div class="pt-4">
 		<a class="btn btn-outline-white"
 			href="resources/docs/ResumePaulCurtisMarch2020_INDEED.pdf"
@@ -155,9 +154,7 @@
 			class="fas fa-download ml-2"></i>
 		</a>
 	</div>
-	<!--/.Call to action-->
 	<hr class="my-4">
-	<!-- Social icons -->
 	<div class="pb-4">
 		<a href="https://github.com/pcurtis5688" target="_blank"> <img
 			alt="LI" src="resources/img/pcdus-li-icon-sm.png" height="64px"
