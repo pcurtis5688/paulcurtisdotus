@@ -22,8 +22,7 @@
 <nav
 	class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
 	<div class="container">
-		<a class="navbar-brand" href="index.php"><strong>PaulCurtis.us</strong>
-		</a>
+		<img src="resources/img/pcdus_graphic.png" alt="PaulCurtis.us" />
 
 		<!-- Collapse -->
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -45,8 +44,7 @@
 					<li class="nav-item"><a class="nav-link"
 						href="resources/docs/ResumePaulCurtisMarch2020_INDEED.pdf"
 						target="_blank">Resume </a></li>
-					<li class="nav-item"><a class="nav-link"
-						href="https://mdbootstrap.com/docs/jquery/" target="_blank">Portfolio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#" target="_blank">Portfolio</a></li>
 				</ul>
 
 				<!-- Right -->
@@ -65,11 +63,9 @@
 		</div>
 
 </nav>
-
-<!-- PCDUS Home Page Contents -->
+<!----------------------------------- CONTENT ---------------------------------->
 <div class="view full-page-intro"
-	style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg'); background-repeat: no-repeat; background-size: cover;">
-	<!-- Mask & flexbox options-->
+	style="background-image: url('resources/img/78.jpg'); background-repeat: no-repeat; background-size: cover;">
 	<div
 		class="mask rgba-black-light d-flex justify-content-center align-items-center">
 		<!-- Content -->
@@ -80,55 +76,49 @@
 				<div class="col-md-6 mb-4 white-text text-center text-md-left">
 					<h1 class="display-5 font-weight-bold textalign">19 March 2020</h1>
 					<hr class="hr-light">
-					<p class="mb-4 d-none d-md-block">
-						<strong>Greetings and welcome to my realm! This site has been a
-							long time coming primarily because technology changes quickly and
-							I found myself too busy to publish a production version. That
-							being said, I'm hoping to keep this up-to-date with some of my
-							current endeavors and I encourage anyone with any development
-							opportunities to reach out to me. I'm available any time at my
-							email (pcurtis5688@gmail.com) or at my cell (412-716-0747) in the
-							contact info. Thanks for reading and have a great day! - Paul </strong>
-					</p>
+					<strong>
+						<p id="pageContent" class="mb-4 d-none d-md-block">Greetings and
+							welcome to my realm! This site has been a long time coming
+							primarily because technology changes quickly and I found myself
+							too busy to publish a production version. That being said, I'm
+							hoping to keep this up-to-date with some of my current endeavors
+							and I encourage anyone with any development opportunities to
+							reach out to me. I'm available any time at my email
+							(pcurtis5688@gmail.com) or at my cell (412-716-0747) in the
+							contact info. Thanks for reading and have a great day! - Paul</p>
+					</strong>
 				</div>
+
 				<!--Grid column-->
-				<div class="col-md-6 col-xl-5 mb-4">
-					<!--Card-->
-					<div class="card">
-
-						<!--Card content-->
-						<div class="card-body">
-
-							<!-- Form -->
-							<form name="">
-								<!-- Heading -->
-								<h3 class="dark-grey-text text-center">
-									<strong>Contact me:</strong>
-								</h3>
-								<hr>
-								<div class="md-form">
-									<i class="fas fa-user prefix grey-text"></i> <input type="text"
-										id="form3" class="form-control"> <label for="form3">Your name</label>
-								</div>
-								<div class="md-form">
-									<i class="fas fa-envelope prefix grey-text"></i> <input
-										type="text" id="form2" class="form-control"> <label
-										for="form2">Your email</label>
-								</div>
-
-								<div class="md-form">
-									<i class="fas fa-pencil-alt prefix grey-text"></i>
-									<textarea type="text" id="form8" class="md-textarea"></textarea>
-									<label for="form8">Your message</label>
-								</div>
-
-								<div class="text-center">
-									<button class="btn btn-indigo">Send</button>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
+				<!--<div class="col-md-6 col-xl-5 mb-4"> -->
+				<!-- 					<div class="card"> -->
+				<!-- 						<div class="card-body"> -->
+				<!-- 							<form name=""> -->
+				<!-- 								<h3 class="dark-grey-text text-center"> -->
+				<!-- 									<strong>Contact me:</strong> -->
+				<!-- 								</h3> -->
+				<!-- 								<hr> -->
+				<!-- 								<div class="md-form"> -->
+				<!-- 									<i class="fas fa-user prefix grey-text"></i> <input type="text" -->
+				<!-- 										id="form3" class="form-control"> <label for="form3">Your name</label> -->
+				<!-- 								</div> -->
+				<!-- 								<div class="md-form"> -->
+				<!-- 									<i class="fas fa-envelope prefix grey-text"></i> <input -->
+				<!-- 										type="text" id="form2" class="form-control"> <label -->
+				<!-- 										for="form2">Your email</label> -->
+				<!-- 								</div> -->
+				<!-- 								<div class="md-form"> -->
+				<!-- 									<i class="fas fa-pencil-alt prefix grey-text"></i> -->
+				<!-- 									<textarea type="text" id="form8" class="md-textarea"></textarea> -->
+				<!-- 									<label for="form8">Your message</label> -->
+				<!-- 								</div> -->
+				<!-- 								<div class="text-center"> -->
+				<!-- 									<button class="btn btn-indigo">Send</button> -->
+				<!-- 								</div> -->
+				<!-- 							</form> -->
+				<!-- 						</div> -->
+				<!-- 					</div> -->
+				<!-- 				</div> -->
 			</div>
 		</div>
 	</div>
@@ -156,10 +146,10 @@
 		|| 412-716-0747</div>
 </footer>
 
-<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="js/popper.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/mdb.min.js"></script>
+<script type="text/javascript" src="resources/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="resources/js/popper.min.js"></script>
+<script type="text/javascript" src="resources/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="resources/js/mdb.min.js"></script>
 <script type="text/javascript">
 function itemClicked(name){
 	var navHomeLink = document.getElementById("navHomeLink");
@@ -170,7 +160,10 @@ function itemClicked(name){
 		navHomeLink.classList.add("active");
 	} else if (name == 'contact'){
 		navContactLink.classList.add("active");
+		var contactContent = document.getElementById("pageContent");
+		contactContent.innerHTML = "test";
 	}
 }
-</script></body>
+</script>
+</body>
 </html>
