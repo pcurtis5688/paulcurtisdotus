@@ -20,7 +20,7 @@
 
 <!-- Navbar -->
 <nav
-	class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+	class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar textalign">
 	<div class="container">
 		<a href="index.php"> <img src="resources/img/pcdus_graphic.png"
 			alt="PaulCurtis.us" />
@@ -69,22 +69,19 @@
 	<div
 		class="mask rgba-black-light d-flex justify-content-center align-items-center">
 		<!-- Content -->
-		<div class="container" style="margin-top: 100px;">
+		<div class="container" style="margin-top: 0;">
 			<!--Grid row-->
 			<div class="row wow fadeIn">
 				<!--Grid column-->
-				<div id="pageContent"
-					class="white-text text-center text-md-left">
+				<div id="pageContent" class="white-text text-center text-md-left">
 					<h1>March 2020</h1>
 					<hr class='hr-light'>
-					<p class='mb-4 d-none d-md-block'>
-						Greetings and welcome. I am hoping to keep this up-to-date with
-						some of my current endeavors and I encourage anyone with any
-						development opportunities to reach out if they feel it might be up
-						my alley.<br> <br>I'm available any time at my email
-						(pcurtis5688@gmail.com) or at my cell (412-716-0747). Thanks for
-						reading and have a great day! -Paul
-					</p>
+					Greetings and welcome. I am hoping to keep this up-to-date with
+					some of my current endeavors and I encourage anyone with any
+					development opportunities to reach out if they feel it might be up
+					my alley.<br> <br>I'm available any time at my email
+					(pcurtis5688@gmail.com) or at my cell (412-716-0747). Thanks for
+					reading and have a great day! -Paul
 					<hr class='hr-light'>
 				</div>
 			</div>
@@ -127,8 +124,8 @@ function itemClicked(name){
 	if(name == 'home'){
 		navHomeLink.classList.add("active");
 		var homeContent = document.getElementById("pageContent");
-		homeContent.innerHTML = "<h1>March 2020</h1><hr class='hr-light'><p class='mb-4 d-none d-md-block'>Greetings and welcome. I am hoping to keep this up-to-date with some of my current endeavors and I encourage anyone with any development opportunities to reach out if they feel it might be up my alley.<br><br>I'm available any time at my email (pcurtis5688@gmail.com) or at my cell (412-716-0747). Thanks for reading and have a great day! -Paul</p><hr class='hr-light'>"
-	} else if (name == 'contact'){
+		homeContent.innerHTML = "<h1>March 2020</h1><hr class='hr-light'>Greetings and welcome. I am hoping to keep this up-to-date with some of my current endeavors and I encourage anyone with any development opportunities to reach out if they feel it might be up my alley.<br><br>I am available any time at my email (pcurtis5688@gmail.com) or at my cell (412-716-0747). Thanks for reading and have a great day! -Paul<hr class='hr-light'>"	;
+		} else if (name == 'contact'){
 		navContactLink.classList.add("active");
 		var contactContent = document.getElementById("pageContent");
 		contactContent.innerHTML = "<h1>Paul Curtis</h1><h2>pcurtis5688@gmail.com</h2><h2>412-716-0747</h2></div>";
