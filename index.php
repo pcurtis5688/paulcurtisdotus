@@ -44,7 +44,7 @@
 						href="#" onclick="itemClicked('contact');">Contact Information</a></li>
 					<li class="nav-item"><a class="nav-link"
 						href="resources/docs/ResumePaulCurtisMarch2020_INDEED.pdf"
-						target="_blank">Resume </a></li>
+						target="_blank">View Resume</a></li>
 				</ul>
 
 				<!-- Right -->
@@ -65,7 +65,7 @@
 </nav>
 <!----------------------------------- CONTENT ---------------------------------->
 <div class="view full-page-intro"
-	style="background-image: url('resources/img/78.jpg'); background-repeat: no-repeat; background-size: cover;">
+	style="max-height: 75%; background-image: url('resources/img/78.jpg'); background-repeat: no-repeat; background-size: cover;">
 	<div
 		class="mask rgba-black-light d-flex justify-content-center align-items-center">
 		<!-- Content -->
@@ -127,7 +127,7 @@ function itemClicked(name){
 		} else if (name == 'contact'){
 		navContactLink.classList.add("active");
 		var contactContent = document.getElementById("pageContent");
-		contactContent.innerHTML = "<h1>Paul Curtis</h1><h2>pcurtis5688@gmail.com</h2><h2>412-716-0747</h2></div>";
+		contactContent.innerHTML = "<h1 style='padding-top:50px'>Paul Curtis</h1><h2>pcurtis5688@gmail.com</h2><h2>412-716-0747</h2></div>";
 	}
 }
 </script>
