@@ -90,15 +90,14 @@
 
 <!------------------FOOTER ----------------------------->
 <footer class="page-footer text-center font-small wow fadeIn">
-	<div class="pt-4">
+	<div style="padding-top:15px;">
 		<a class="btn btn-outline-white"
 			href="resources/docs/ResumePaulCurtisMarch2020_INDEED.pdf"
 			target="_blank" role="button">Download CV / Resume<i
 			class="fas fa-download ml-2"></i>
 		</a>
 	</div>
-	<hr class="my-4">
-	<div class="pb-4">
+	<div class="pb-4" style="margin-top:15px;">
 		<a href="https://linkedin.com/in/paulcphilly/" target="_blank"> <img
 			alt="LI" src="resources/img/pcdus-li-icon-sm.png" height="64px"
 			width="64px" />
