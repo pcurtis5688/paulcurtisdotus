@@ -1,4 +1,4 @@
-<div class='text-md-left'>
+<div class='text-md-left' style="color: gold; font-weight: bolder;">
 	<hr class='hr-light'>
 	Greetings and welcome. I am hoping to keep this up-to-date with some of
 	my current endeavors and I am always open to discussing new

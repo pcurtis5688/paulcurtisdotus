@@ -65,16 +65,16 @@
 </nav>
 <!----------------------------------- CONTENT ---------------------------------->
 <div class="view full-page-intro"
-	style="max-height: 75%; text-align: center; background-image: url('resources/img/78.jpg'); background-repeat: no-repeat; background-size: cover;">
+	style="max-height: 80%; text-align: center; background-image: url('resources/img/78.jpg'); background-repeat: no-repeat; background-size: cover;">
 	<div
 		class="mask rgba-black-light d-flex justify-content-center align-items-center">
 		<!-- Content -->
 		<div class="container" style="margin-top: 0;">
 			<!--Grid row-->
-			<div class="row wow fadeIn text-center">
+			<div class="row wow fadeIn text-center" style="">
 				<!--Grid column-->
 				<div id="pageContent" class="white-text text-center"
-					style="width: 100%">
+					style="width: 100%;">
 					<?php require_once './content/homecontent.php';?>
 				</div>
 			</div>
