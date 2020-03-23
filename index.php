@@ -65,23 +65,17 @@
 </nav>
 <!----------------------------------- CONTENT ---------------------------------->
 <div class="view full-page-intro"
-	style="max-height: 75%; background-image: url('resources/img/78.jpg'); background-repeat: no-repeat; background-size: cover;">
+	style="max-height: 75%; text-align: center; background-image: url('resources/img/78.jpg'); background-repeat: no-repeat; background-size: cover;">
 	<div
 		class="mask rgba-black-light d-flex justify-content-center align-items-center">
 		<!-- Content -->
 		<div class="container" style="margin-top: 0;">
 			<!--Grid row-->
-			<div class="row wow fadeIn">
+			<div class="row wow fadeIn text-center">
 				<!--Grid column-->
-				<div id="pageContent" class="white-text text-center text-md-left">
-					<h1>March 2020</h1>
-					<hr class='hr-light'>
-					Greetings and welcome. I am hoping to keep this up-to-date with
-					some of my current endeavors and I am always open to discussing new
-					opportunities.<br> <br>I'm available any time at my email
-					(pcurtis5688@gmail.com) or at my cell (412-716-0747). Thanks for
-					reading and have a great day! -Paul
-					<hr class='hr-light'>
+				<div id="pageContent" class="white-text text-center"
+					style="width: 100%">
+					<?php require_once './content/homecontent.php';?>
 				</div>
 			</div>
 		</div>
@@ -90,14 +84,14 @@
 
 <!------------------FOOTER ----------------------------->
 <footer class="page-footer text-center font-small wow fadeIn">
-	<div style="padding-top:15px;">
+	<div style="padding-top: 15px;">
 		<a class="btn btn-outline-white"
 			href="resources/docs/ResumePaulCurtisMarch2020_INDEED.pdf"
 			target="_blank" role="button">Download CV / Resume<i
 			class="fas fa-download ml-2"></i>
 		</a>
 	</div>
-	<div class="pb-4" style="margin-top:15px;">
+	<div class="pb-4" style="margin-top: 15px;">
 		<a href="https://linkedin.com/in/paulcphilly/" target="_blank"> <img
 			alt="LI" src="resources/img/pcdus-li-icon-sm.png" height="64px"
 			width="64px" />
@@ -121,13 +115,12 @@ function itemClicked(name){
 	navContactLink.classList.remove("active");
 	if(name == 'home'){
 		navHomeLink.classList.add("active");
-		var homeContent = document.getElementById("pageContent");
-		homeContent.innerHTML = "<h1>March 2020</h1><hr class='hr-light'>Greetings and welcome. I am hoping to keep this up-to-date with some of my current endeavors and I am always open to discussing new opportunities.<br> <br>I'm available any time at my email (pcurtis5688@gmail.com) or at my cell (412-716-0747). Thanks for reading and have a great day! -Paul<hr class='hr-light'>";
-		} else if (name == 'contact'){
+		$('#pageContent').load('./content/homecontent.php');
+	} else if (name == 'contact'){
 		navContactLink.classList.add("active");
-		var contactContent = document.getElementById("pageContent");
-		contactContent.innerHTML = "<h1 style='padding-top:50px'>Paul Curtis</h1><h2>pcurtis5688@gmail.com</h2><h2>412-716-0747</h2></div>";
+		$('#pageContent').load('./content/contactcontent.php');
 	}
+	var menu = document.getElementById("navbarSupportedContent").classList.add("hide");
 }
 </script>
 </body>
