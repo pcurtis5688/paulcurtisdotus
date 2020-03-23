@@ -54,7 +54,7 @@
 						class="nav-link border border-light rounded" target="_blank"> <i
 							class="fab fa-linkedin"></i>LinkedIn
 					</a></li>&nbsp;&nbsp;
-					<li class="nav-item"><a href="https://github.com/pcurtis5688/"
+					<li class="nav-item"><a href="https://github.com/pcurtis5688/" style="float: right;"
 						class="nav-link border border-light rounded" target="_blank"> <i
 							class="fab fa-github mr-2"></i>GitHub Repositories
 					</a></li>
