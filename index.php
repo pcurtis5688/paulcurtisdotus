@@ -52,11 +52,11 @@
 					<li class="nav-item"><a
 						href="https://www.linkedin.com/in/paulcphilly/"
 						class="nav-link border border-light rounded" target="_blank"> <i
-							class="fab fa-linkedin"></i>My LinkedIn
+							class="fab fa-linkedin"></i>LinkedIn
 					</a></li>&nbsp;&nbsp;
 					<li class="nav-item"><a href="https://github.com/pcurtis5688/"
 						class="nav-link border border-light rounded" target="_blank"> <i
-							class="fab fa-github mr-2"></i>My GitHub Repos
+							class="fab fa-github mr-2"></i>GitHub Repositories
 					</a></li>
 				</ul>
 			</div>
