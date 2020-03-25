@@ -13,4 +13,5 @@
 			style="color: gold; text-decoration: underline;">484-442-0052</a>&nbsp;(Home)
 		</b>
 	</h3>
+	<?php include_once '../contactform.php';?>
 </div>

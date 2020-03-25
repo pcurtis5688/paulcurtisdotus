@@ -65,13 +65,13 @@
 </nav>
 <!----------------------------------- CONTENT ---------------------------------->
 <div class="view full-page-intro"
-	style="max-height: 80%; text-align: center; background-image: url('resources/img/78.jpg'); background-repeat: no-repeat; background-size: cover;">
+	style="text-align: center; background-image: url('resources/img/78.jpg'); background-repeat: no-repeat; background-size: cover;">
 	<div
 		class="mask rgba-black-light d-flex justify-content-center align-items-center">
 		<!-- Content -->
-		<div class="container" style="margin-top: 0;">
+		<div class="container" style="margin-top: 0; padding-top: 25%; padding-bottom: 12%">
 			<!--Grid row-->
-			<div class="row wow fadeIn text-center" style="">
+			<div class="row wow fadeIn text-center">
 				<!--Grid column-->
 				<div id="pageContent" class="white-text text-center"
 					style="width: 100%;">
@@ -102,7 +102,6 @@
 	<div class="footer-copyright py-3">Paul Curtis || pcurtis5688@gmail.com
 		|| 412-716-0747</div>
 </footer>
-
 <script type="text/javascript" src="resources/js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="resources/js/popper.min.js"></script>
 <script type="text/javascript" src="resources/js/bootstrap.min.js"></script>
