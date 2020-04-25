@@ -1,4 +1,4 @@
-<div style="text-align: center; color: gold;">
+<div style="text-align: center; color: gold; padding-top:15%;">
 	<h1 style="padding-top: 1em;">
 		<i><b>Paul Curtis</b></i><br>
 	</h1>
@@ -13,5 +13,5 @@
 			style="color: gold; text-decoration: underline;">484-442-0052</a>&nbsp;(Home)
 		</b>
 	</h3>
-	<?php include_once '../contactform.php';?>
+	<?php include_once '../content/contactform.php';?>
 </div>

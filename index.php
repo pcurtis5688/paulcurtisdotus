@@ -43,7 +43,7 @@
 					<li id="navContactLink" class="nav-item"><a class="nav-link"
 						href="#" onclick="itemClicked('contact');">Contact Information</a></li>
 					<li class="nav-item"><a class="nav-link"
-						href="resources/docs/ResumePaulCurtisMarch2020_INDEED.pdf"
+						href="resources/docs/Paul_Curtis_Resume_2020.docx"
 						target="_blank">View Resume</a></li>
 				</ul>
 
@@ -69,12 +69,12 @@
 	<div
 		class="mask rgba-black-light d-flex justify-content-center align-items-center">
 		<!-- Content -->
-		<div class="container" style="margin-top: 0; padding-top: 25%; padding-bottom: 12%">
+		<div class="container">
 			<!--Grid row-->
 			<div class="row wow fadeIn text-center">
 				<!--Grid column-->
 				<div id="pageContent" class="white-text text-center"
-					style="width: 100%;">
+					style="width: 100%; margin-top:0;">
 					<?php require_once './content/homecontent.php';?>
 				</div>
 			</div>
@@ -86,7 +86,7 @@
 <footer class="page-footer text-center font-small wow fadeIn">
 	<div style="padding-top: 15px;">
 		<a class="btn btn-outline-white"
-			href="resources/docs/ResumePaulCurtisMarch2020_INDEED.pdf"
+			href="resources/docs/Paul_Curtis_Resume_2020.docx"
 			target="_blank" role="button">Download CV / Resume<i
 			class="fas fa-download ml-2"></i>
 		</a>
