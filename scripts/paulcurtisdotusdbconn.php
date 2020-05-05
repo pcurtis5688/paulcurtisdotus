@@ -17,6 +17,7 @@ if (! $dbCon) {
     $qry = "SELECT `blog_entry`.`blog_id`,`blog_entry`.`blog_author`,`blog_entry`.`blog_entry_title`, `blog_entry`.`blog_entry_text`, `blog_entry`.`blog_entry_timestamp` FROM `blog_entry`";
     $qryresponse = mysqli_query($dbCon, $qry);
     $result_array = mysqli_fetch_row($qryresponse);
+    var
     $result_blog_id = $result_array[0]; echo $result_array[0];
     $result_blog_auth = $result_array[1]; echo $result_array[1];
     $result_blog_title = $result_array[2]; echo $result_array[2];
