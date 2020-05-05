@@ -5,7 +5,7 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>|| PaulCurtis.US - Home ||</title>
+<title>PaulCurtis.us || Home</title>
 <!-- Font Awesome -->
 <link rel="stylesheet"
 	href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
@@ -43,8 +43,8 @@
 					<li id="navContactLink" class="nav-item"><a class="nav-link"
 						href="#" onclick="itemClicked('contact');">Contact Information</a></li>
 					<li class="nav-item"><a class="nav-link"
-						href="resources/docs/Paul_Curtis_Resume_2020.docx"
-						target="_blank">View Resume</a></li>
+						href="resources/docs/Paul_Curtis_Resume_2020.docx" target="_blank">View
+							Resume</a></li>
 				</ul>
 
 				<!-- Right -->
@@ -54,9 +54,10 @@
 						class="nav-link border border-light rounded" target="_blank"> <i
 							class="fab fa-linkedin"></i>LinkedIn
 					</a></li>&nbsp;&nbsp;
-					<li class="nav-item"><a href="https://github.com/pcurtis5688/" style="float: right;"
-						class="nav-link border border-light rounded" target="_blank"> <i
-							class="fab fa-github mr-2"></i>GitHub Repositories
+					<li class="nav-item"><a href="https://github.com/pcurtis5688/"
+						style="float: right;" class="nav-link border border-light rounded"
+						target="_blank"> <i class="fab fa-github mr-2"></i>GitHub
+							Repositories
 					</a></li>
 				</ul>
 			</div>
@@ -74,7 +75,7 @@
 			<div class="row wow fadeIn text-center">
 				<!--Grid column-->
 				<div id="pageContent" class="white-text text-center"
-					style="width: 100%; margin-top:0;">
+					style="width: 100%; margin-top: 0;">
 					<?php require_once './web/homecontent.php';?>
 				</div>
 			</div>
@@ -86,9 +87,8 @@
 <footer class="page-footer text-center font-small wow fadeIn">
 	<div style="padding-top: 15px;">
 		<a class="btn btn-outline-white"
-			href="resources/docs/Paul_Curtis_Resume_2020.docx"
-			target="_blank" role="button">Download CV / Resume<i
-			class="fas fa-download ml-2"></i>
+			href="resources/docs/Paul_Curtis_Resume_2020.docx" target="_blank"
+			role="button">Download CV / Resume<i class="fas fa-download ml-2"></i>
 		</a>
 	</div>
 	<div class="pb-4" style="margin-top: 15px;">
@@ -117,7 +117,7 @@ function itemClicked(name){
 		$('#pageContent').load('./web/homecontent.php');
 	} else if (name == 'contact'){
 		navContactLink.classList.add("active");
-		$('#pageContent').load('./web/contactcontent.php');
+		$('#pageContent').load('./web/contactform.php');
 	}
 	var menu = document.getElementById("navbarSupportedContent").classList.add("hide");
 }
