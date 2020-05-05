@@ -75,7 +75,7 @@
 				<!--Grid column-->
 				<div id="pageContent" class="white-text text-center"
 					style="width: 100%; margin-top:0;">
-					<?php require_once './content/homecontent.php';?>
+					<?php require_once './web/homecontent.php';?>
 				</div>
 			</div>
 		</div>
@@ -114,10 +114,10 @@ function itemClicked(name){
 	navContactLink.classList.remove("active");
 	if(name == 'home'){
 		navHomeLink.classList.add("active");
-		$('#pageContent').load('./content/homecontent.php');
+		$('#pageContent').load('./web/homecontent.php');
 	} else if (name == 'contact'){
 		navContactLink.classList.add("active");
-		$('#pageContent').load('./content/contactcontent.php');
+		$('#pageContent').load('./web/contactcontent.php');
 	}
 	var menu = document.getElementById("navbarSupportedContent").classList.add("hide");
 }
