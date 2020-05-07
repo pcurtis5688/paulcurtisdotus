@@ -17,7 +17,6 @@
 <link href="resources/css/style.min.css" rel="stylesheet">
 <link href="resources/css/pcdus-style.css" rel="stylesheet">
 </head>
-
 <!-- Navbar -->
 <nav
 	class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar textalign">
@@ -32,7 +31,6 @@
 			aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-
 		<!-- NAVIGATION -->
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -81,7 +79,6 @@
 		</div>
 	</div>
 </div>
-
 <!------------------FOOTER ----------------------------->
 <footer class="page-footer text-center font-small wow fadeIn">
 	<div style="padding-top: 15px;">
