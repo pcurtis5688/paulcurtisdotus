@@ -4,6 +4,6 @@
 	opportunities. Feel free to reach out any time!<br> <br>Paul Curtis<br>
 	<a href="mailto:pcurtis5688@gmail.com">pcurtis5688@gmail.com</a><br> <a
 		href="tel:1-412-716-0747">cell: 412-716-0747</a><br> <a
-		href="tel:1-484-442-0052">mobile: 484-442-0052</a><br> <a
-		href="https://PaulCurtis.us/">https://PaulCurtis.us/</a>
+		href="tel:1-484-442-0052">office: 484-442-0052</a><br> <a
+		href="https://PaulCurtis.us/">https://www.paulcurtis.us/</a>
 </div>

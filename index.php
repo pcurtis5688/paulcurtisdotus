@@ -46,14 +46,13 @@
 						href="resources/docs/Paul_Curtis_Resume_2020.docx" target="_blank">View
 							Resume</a></li>
 				</ul>
-
 				<!-- Right -->
 				<ul class="navbar-nav nav-flex-icons">
 					<li class="nav-item"><a
 						href="https://www.linkedin.com/in/paulcphilly/"
 						class="nav-link border border-light rounded" target="_blank"> <i
 							class="fab fa-linkedin"></i>LinkedIn
-					</a></li>&nbsp;&nbsp;
+					</a></li>
 					<li class="nav-item"><a href="https://github.com/pcurtis5688/"
 						style="float: right;" class="nav-link border border-light rounded"
 						target="_blank"> <i class="fab fa-github mr-2"></i>GitHub
@@ -62,7 +61,7 @@
 				</ul>
 			</div>
 		</div>
-
+	</div>
 </nav>
 <!----------------------------------- CONTENT ---------------------------------->
 <div class="view full-page-intro"
