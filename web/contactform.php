@@ -1,14 +1,20 @@
-<div style="text-align: center; color: gold; padding-top: 7%;">
+<div style="text-align: center; color: gold; padding-top: 8%;">
 	<?php //TODO: Turn these into buttons. ?>
-	<a href="mailto:pcurtis5688@gmail.com" style="color: gold;"><button
-			type="button" class="btn btn-secondary rounded">[Email:
-			pcurtis5688@gmail.com]</button></a><br> <a href="tel:1-412-716-0747"
-		style="color: gold;"><button type="button"
-			class="btn btn-secondary rounded">[Dial Cell: 412-716-0747]</button></a><br>
-	<a href="tel:1-484-442-0052" style="color: gold;"><button type="button"
-			class="btn btn-secondary rounded">[Dial Office: 484-442-0052]</button></a><br>
-	<br> <q>OR... you may use this convenient form to shoot me a message
-		with all of your details. :)</q> <br> <br>
+	<button type="button" class="btn btn-secondary rounded">
+		<a href="mailto:pcurtis5688@gmail.com" style="color: gold;">[Email:
+			pcurtis5688@gmail.com]</a>
+	</button>
+	<br>
+	<button type="button" class="btn btn-secondary rounded">
+		<a href="tel:1-412-716-0747" style="color: gold;">[Dial Cell:
+			412-716-0747]</a>
+	</button>
+	<br>
+	<button type="button" class="btn btn-secondary rounded">
+		<a href="tel:1-484-442-0052" style="color: gold;">[Dial Office:
+			484-442-0052]</a>
+	</button>
+	<br><br>
 	<form id="contact-form" method="post" action="../scripts/sendemail.php"
 		role="form">
 		<div class="messages"></div>
