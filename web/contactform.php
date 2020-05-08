@@ -14,7 +14,7 @@
 		<a href="tel:1-484-442-0052" style="color: gold;">[Dial Office:
 			484-442-0052]</a>
 	</button>
-	<br><br>
+	<br> <br>
 	<form id="contact-form" method="post" action="../scripts/sendemail.php"
 		role="form">
 		<div class="messages"></div>
