@@ -69,8 +69,8 @@
 			<div class="row wow fadeIn text-center">
 				<!--Grid column-->
 				<div id="pageContent" class="white-text text-center"
-					style="width: 100%; margin-top: 0;">
-					<?php require_once './web/homecontent.php';?>
+					style="width: 100%;">
+					<?php require_once './web/homecontent.php'; ?>
 				</div>
 			</div>
 		</div>
@@ -93,7 +93,7 @@
 		</a>
 	</div>
 	<div class="footer-copyright py-3">Paul Curtis || pcurtis5688@gmail.com
-		|| 412-716-0747</div>
+		|| 412-716-0747 || 484-442-0052</div>
 </footer>
 <script type="text/javascript" src="resources/js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="resources/js/popper.min.js"></script>
