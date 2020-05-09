@@ -10,7 +10,7 @@
 		<button type="button" class="btn btn-secondary rounded"
 			style="color: gold;">[Dial Office: 484-442-0052]</button>
 	</a> <br> <br>
-	<form id="contact-form" method="post" action="../scripts/sendemail.php"
+	<form id="contact-form" method="post" action="./scripts/sendemail.php"
 		role="form">
 		<div class="messages"></div>
 		<div class="controls">
@@ -27,11 +27,11 @@
 							style="margin-bottom: 10px;" id="contact_form" type="text"
 							name="email_re" class="form-control" placeholder="[Your Email]"
 							required="required" data-error="Last Name is required.">
-						<textarea cols="125" rows="5"
+						<textarea cols="125" rows="5" id="contact_form" name="visitor_msg"
 							placeholder="Your message goes right here..."
 							data-error="Message is required." />
 						<br> <input type="submit" class="btn btn-primary btn-send"
-							value="Send Email"><br>
+							value="Send Message"><br>
 						<div class="help-block with-errors"></div>
 					</div>
 				</div>
