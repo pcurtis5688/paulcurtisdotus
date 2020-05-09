@@ -5,14 +5,12 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>PaulCurtis.us || Home</title>
-<!-- Material Design Bootstrap Core CSS -->
+<title>www.PaulCurtis.us</title>
+<!-- Material Design Bootstrap Core CSS & Custom Style Sheets, Font Awesome CSS -->
 <link href="resources/css/bootstrap.min.css" rel="stylesheet">
 <link href="resources/css/mdb.min.css" rel="stylesheet">
-<!-- Custom Styles -->
 <link href="resources/css/style.min.css" rel="stylesheet">
 <link href="resources/css/pcdus-style.css" rel="stylesheet">
-<!-- Font Awesome -->
 <link rel="stylesheet"
 	href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 </head>
