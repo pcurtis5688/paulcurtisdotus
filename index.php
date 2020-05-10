@@ -33,18 +33,21 @@
 			<div class='collapse navbar-collapse' id='navbarSupportedContent'>
 				<ul class='navbar-nav mr-auto'>
 					<li id='navHomeLink' class='nav-item active'><a class='nav-link'
-						href='#' onclick='navBarItemClicked("home");'>Home<span class='sr-only'>(current)</span>
+						href='#' onclick='navBarItemClicked("home");'>Home<span
+							class='sr-only'>(current)</span>
 					</a></li>
 					<li id='navContactLink' class='nav-item'><a class='nav-link'
-						href='#' onclick='navBarItemClicked("contact");'>Contact Information</a></li>
+						href='#' onclick='navBarItemClicked("contact");'>Contact
+							Information</a></li>
 					<li id='portfolioPageLink' class='nav-item'><a class='nav-link'
 						href='#' onclick='navBarItemClicked("portfolio");'>Portfolio</a></li>
-					<li class='nav-item'><a class='nav-link'
-						href='./resources/docs/Paul_Curtis_Resume_2020.docx'
-						target='_blank'>View Resume</a></li>
 				</ul>
 				<!-- Right -->
 				<ul class='navbar-nav nav-flex-icons'>
+					<li class='nav-item'><a
+						href='./resources/docs/Paul_Curtis_Resume_2020.docx'
+						class='nav-link border border-light rounded' target='_blank'>View
+							Resume</a></li>
 					<li class='nav-item'><a
 						href='https://www.linkedin.com/in/paulcphilly/'
 						class='nav-link border border-light rounded' target='_blank'> <i
