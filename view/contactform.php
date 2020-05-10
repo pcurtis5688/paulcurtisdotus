@@ -1,22 +1,25 @@
 <div class='text-md-center'>
 	<div class='row'>
 		<div class='col-md-4'>
-			<button type='button' class='btn btn-secondary rounded goldAsPrimary'>
-				<a href='mailto:pcurtis5688@gmail.com' class='goldAsPrimary'>pcurtis5688@gmail.com</a>
-			</button>
+			<a href='mailto:pcurtis5688@gmail.com' class='goldAsPrimary'>
+				<button type='button'
+					class='btn btn-secondary rounded goldAsPrimary'>
+					pcurtis5688@gmail.com</button>
+			</a>
 		</div>
 		<div class='col-md-4'>
-			<button type='button' href='tel:4127160747'
-				class='btn btn-secondary rounded'>
-				<a href='tel:+14127160747' class='goldAsPrimary'>[Dial Mobile: (+1)
-					412-716-0747]</a>
-			</button>
+			<a href='tel:4127160747'>
+				<button type='button'
+					class='btn btn-secondary rounded goldAsPrimary'>[Dial Mobile: (+1)
+					412-716-0747]</button>
+			</a>
 		</div>
 		<div class='col-md-4'>
-			<button type='button' class='btn btn-secondary rounded'>
-				<a href='tel:+14844420052' class='goldAsPrimary'>[Dial Office: (+1)
-					484-442-0052]</a>
-			</button>
+			<a href='tel:4127160747'>
+				<button type='button'
+					class='btn btn-secondary rounded goldAsPrimary'>[Dial Office: (+1)
+					484-442-0052]</button>
+			</a>
 		</div>
 	</div>
 	<?php //TODO: FINISH THE MATERIAL DESIGN OF CONTACT FORM?>
