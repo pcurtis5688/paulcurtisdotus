@@ -19,12 +19,12 @@
 			</button>
 		</div>
 	</div>
+	<?php //TODO: FINISH THE MATERIAL DESIGN OF CONTACT FORM?>
 	<form id='contact-form' method='post' action='./scripts/sendemail.php'
 		role='form' class='md-form'>
 		<div class='messages'></div>
 		<div class='controls form-group'>
-				<?php //TODO: finish completing material design form ?>
-			<div class='row marginBottomTwoEM'>
+			<div class='row'>
 				<div class='col-md-6'>
 					<input id='contact_form' type='text' name='first_name'
 						class='form-control' required='required'
@@ -38,7 +38,7 @@
 						class=''>Last Name</label>
 				</div>
 			</div>
-			<div class='row marginBottomTwoEM'>
+			<div class='row'>
 				<div class='col-md-12 '>
 					<input id='contact_form' type='text' name='email_re'
 						class='form-control' required='required'
@@ -46,11 +46,13 @@
 						class=''>Email Address</label>
 				</div>
 			</div>
-			<div class='rowmarginBottomTwoEM'>
+			<div class='row'>
 				<div class='col-md-12'>
-					<textarea rows='5' name='visitor_msg' id='contact_form'
-						class='form-control' placeholder='What can I help you with??'></textarea>
-					<label for='contact_form' class='active'>Message</label>
+					<div class='md-form'>
+						<textarea rows='5' name='visitor_msg' id='contact_form'
+							class='form-control' required='required'></textarea>
+						<label for='contact_form'>Message</label>
+					</div>
 				</div>
 			</div>
 			<div class='row'>
