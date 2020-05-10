@@ -173,21 +173,3 @@ html, body, .view {
 .marginBottomTwoEM {
 	margin-bottom: 2em;
 }
-
-.paddingLeft20Pct {
-	padding-left: 20%;
-}
-
-.paddingRight20Pct {
-	padding-right: 20%;
-}
-
-.fontWeightBolder {
-	font-weight: bolder;
-}
-
-.paddingLR75 {
-	padding-left: 7.5%;
-	padding-right: 7.5%;
-}
-

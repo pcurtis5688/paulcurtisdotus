@@ -1,24 +1,22 @@
 <div class='text-md-center'>
 	<div class='row'>
 		<div class='col-md-4'>
-			<a href='mailto:pcurtis5688@gmail.com'>
-				<button type='button'
-					class='btn btn-secondary rounded goldAsPrimary'>pcurtis5688@gmail.com</button>
-			</a>
+			<button type='button' class='btn btn-secondary rounded goldAsPrimary'>
+				<a href='mailto:pcurtis5688@gmail.com' class='goldAsPrimary'>pcurtis5688@gmail.com</a>
+			</button>
 		</div>
 		<div class='col-md-4'>
-			<a href='tel:1-412-716-0747'>
-				<button type='button'
-					class='btn btn-secondary rounded goldAsPrimary'>[Dial Cell:
-					412-716-0747]</button>
-			</a>
+			<button type='button' href='tel:4127160747'
+				class='btn btn-secondary rounded'>
+				<a href='tel:+14127160747' class='goldAsPrimary'>[Dial Mobile: (+1)
+					412-716-0747]</a>
+			</button>
 		</div>
 		<div class='col-md-4'>
-			<a href='tel:1-484-442-0052'>
-				<button type='button'
-					class='btn btn-secondary rounded goldAsPrimary'>[Dial Office:
-					484-442-0052]</button>
-			</a>
+			<button type='button' class='btn btn-secondary rounded'>
+				<a href='tel:+14844420052' class='goldAsPrimary'>[Dial Office: (+1)
+					484-442-0052]</a>
+			</button>
 		</div>
 	</div>
 	<form id='contact-form' method='post' action='./scripts/sendemail.php'
@@ -26,37 +24,39 @@
 		<div class='messages'></div>
 		<div class='controls form-group'>
 				<?php //TODO: finish completing material design form ?>
-				<div class='row marginBottomTwoEM'>
+			<div class='row marginBottomTwoEM'>
 				<div class='col-md-6'>
-					<input mdbInput id='contact_form' type='text' name='first_name'
+					<input id='contact_form' type='text' name='first_name'
 						class='form-control' required='required'
 						data-error='First Name is required.'><label for='contact_form'
 						class=''>First Name</label>
 				</div>
 				<div class='col-md-6'>
-					<input mdbInput id='contact_form' type='text' name='last_name'
+					<input id='contact_form' type='text' name='last_name'
 						class='form-control' required='required'
 						data-error='Last Name is required.'><label for='contact_form'
 						class=''>Last Name</label>
 				</div>
 			</div>
 			<div class='row marginBottomTwoEM'>
-				<div class='col-md-12 paddingLR75'>
+				<div class='col-md-12 '>
 					<input id='contact_form' type='text' name='email_re'
 						class='form-control' required='required'
-						data-error='Return email is required.'>
+						data-error='Return email is required.'><label for='contact_form'
+						class=''>Email Address</label>
 				</div>
 			</div>
-			<div class='row marginBottomTwoEM'>
-				<div class='col-md-12 paddingLR75'>
-					<textarea rows='5' id='contact_form' name='visitor_msg'
-						class='form-control' placeholder='Your message goes right here...'></textarea>
+			<div class='rowmarginBottomTwoEM'>
+				<div class='col-md-12'>
+					<textarea rows='5' name='visitor_msg' id='contact_form'
+						class='form-control' placeholder='What can I help you with??'></textarea>
+					<label for='contact_form' class='active'>Message</label>
 				</div>
 			</div>
 			<div class='row'>
-				<div class='col-md-12 paddingLR75'>
+				<div class='col-md-12'>
 					<input type='submit' class='btn btn-primary btn-send goldAsPrimary'
-						value='Send Message'>
+						id='contact_form' value='Send Message'>
 				</div>
 			</div>
 			<div class='help-block with-errors'></div>
