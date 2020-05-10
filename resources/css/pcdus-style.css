@@ -166,10 +166,18 @@ html, body, .view {
 	background-color: #000000;
 }
 
-.goldAsPrimary {
+.colorGold {
 	color: gold;
+}
+
+.colorRed {
+	color: red;
 }
 
 .row {
 	margin-bottom: 2em;
+}
+
+.contactFormLabel {
+	color: gold;
 }

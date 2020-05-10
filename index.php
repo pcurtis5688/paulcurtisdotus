@@ -33,12 +33,15 @@
 			<div class='collapse navbar-collapse' id='navbarSupportedContent'>
 				<ul class='navbar-nav mr-auto'>
 					<li id='navHomeLink' class='nav-item active'><a class='nav-link'
-						href='#' onclick='itemClicked("home");'>Home <span class='sr-only'>(current)</span>
+						href='#' onclick='navBarItemClicked("home");'>Home<span class='sr-only'>(current)</span>
 					</a></li>
 					<li id='navContactLink' class='nav-item'><a class='nav-link'
-						href='#' onclick='itemClicked("contact");'>Contact Information</a></li>
+						href='#' onclick='navBarItemClicked("contact");'>Contact Information</a></li>
+					<li id='portfolioPageLink' class='nav-item'><a class='nav-link'
+						href='#' onclick='navBarItemClicked("portfolio");'>Portfolio</a></li>
 					<li class='nav-item'><a class='nav-link'
-						href='./resources/docs/Paul_Curtis_Resume_2020.docx' target='_blank'>Resume</a></li>
+						href='./resources/docs/Paul_Curtis_Resume_2020.docx'
+						target='_blank'>View Resume</a></li>
 				</ul>
 				<!-- Right -->
 				<ul class='navbar-nav nav-flex-icons'>
@@ -77,13 +80,13 @@
 </div>
 <!------------------FOOTER ----------------------------->
 <footer class='page-footer text-center font-small wow fadeIn'>
-	<div style='padding-top: 15px;'>
+	<div>
 		<a class='btn btn-outline-white'
 			href='resources/docs/Paul_Curtis_Resume_2020.docx' target='_blank'
 			role='button'>Download CV / Resume<i class='fas fa-download ml-2'></i>
 		</a>
 	</div>
-	<div class='pb-4' style='margin-top: 15px;'>
+	<div class='pb-4'>
 		<a href='https://linkedin.com/in/paulcphilly/' target='_blank'> <img
 			alt='LI' src='resources/img/pcdus-li-icon-sm.png' height='64px'
 			width='64px' />
@@ -94,25 +97,38 @@
 	<div class='footer-copyright py-3'>Paul Curtis || pcurtis5688@gmail.com
 		|| 412-716-0747 || 484-442-0052</div>
 </footer>
-<script type='text/javascript' src='resources/js/jquery-3.4.1.min.js'></script>
-<script type='text/javascript' src='resources/js/popper.min.js'></script>
-<script type='text/javascript' src='resources/js/bootstrap.min.js'></script>
-<script type='text/javascript' src='resources/js/mdb.min.js'></script>
-<script type='text/javascript'>
-function itemClicked(name){
-	var navHomeLink = document.getElementById('navHomeLink');
-	var navContactLink = document.getElementById('navContactLink');
-	navHomeLink.classList.remove('active');
-	navContactLink.classList.remove('active');
-	if(name == 'home'){
-		navHomeLink.classList.add('active');
-		$('#pageContent').load('./view/homecontent.php');
-	} else if (name == 'contact'){
-		navContactLink.classList.add('active');
-		$('#pageContent').load('./view/contactform.php');
-	}
-	var menu = document.getElementById('navbarSupportedContent').classList.add('hide');
-}
-</script>
+<script type='text/javascript' src='./resources/js/jquery-3.4.1.min.js'></script>
+<script type='text/javascript' src='./resources/js/popper.min.js'></script>
+<script type='text/javascript' src='./resources/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='./resources/js/mdb.min.js'></script>
+<script type='text/javascript' src='./resources/js/pcdus-js.js'></script>
+<!-- var navHomeLink = null; -->
+<!-- var navContactLink = null; -->
+
+<!-- function itemClicked(name){ -->
+<!-- 	navHomeLink = document.getElementById('navHomeLink'); -->
+<!-- 	navContactLink = document.getElementById('navContactLink'); -->
+<!-- 	removeAllActiveContentPanes(); -->
+<!-- 	if(name == 'home'){ -->
+<!-- 		loadHomeContent(); -->
+<!-- 	} else if (name == 'contact'){ -->
+<!-- 		loadContactPage(); -->
+<!-- 	} -->
+<!-- 	var menu = document.getElementById('navbarSupportedContent').classList.add('hide'); -->
+<!-- } -->
+
+<!-- function removeAllActiveContentPanes(){ -->
+<!-- 	navHomeLink.classList.remove('active'); -->
+<!-- 	navContactLink.classList.remove('active'); -->
+<!-- } -->
+<!-- function loadHomeContent(){ -->
+<!-- 	navHomeLink.classList.add('active'); -->
+<!-- 	$('#pageContent').load('./view/homecontent.php'); -->
+<!-- } -->
+
+<!-- function loadContactPage(){ -->
+<!-- 	navContactLink.classList.add('active'); -->
+<!-- 	$('#pageContent').load('./view/contactform.php'); -->
+<!-- } </script> -->
 </body>
 </html>
