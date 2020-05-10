@@ -1,46 +1,34 @@
 /**
  * TODO: complete this documentation here.
  */
-var navHomeLink = null;
-var navContactLink = null;
-var navPortfolioLink = null;
 
 function navBarItemClicked(name) {
-	navHomeLink = document.getElementById('navHomeLink');
-	navContactLink = document.getElementById('navContactLink');
-	navPortfolioLink = document.getElementById('navPortfolioLink');
-
-	removeAllActiveContentPanes();
-
-	if (name == 'home') {
-		loadHomeContent();
-	} else if (name == 'contact') {
-		loadContactPage();
-	} else if (name == 'portfolio') {
-		loadPortfolioPage();
+	var navHomeLink = document.getElementById('navHomeLink');
+	var navContactLink = document.getElementById('navContactLink');
+	var navPortfolioLink = document.getElementById('navPortfolioLink');
+	for (var i = 0; i < navHomeLink.classList.length; i++) {
+		if (navHomeLink.classList[i] == 'active') {
+			navHomeLink.classList.remove('active');
+		}
 	}
-
-	var menu = document.getElementById('navbarSupportedContent').classList
-			.add('hide');
-}
-
-function removeAllActiveContentPanes() {
-	navHomeLink.classList.remove('active');
-	navContactLink.classList.remove('active');
-	navPortfolioLink.classList.remove('active');
-}
-
-function loadHomeContent() {
-	navHomeLink.classList.add('active');
-	$('#pageContent').load('./view/homecontent.php');
-}
-
-function loadContactPage() {
-	navContactLink.classList.add('active');
-	$('#pageContent').load('./view/contactform.php');
-}
-
-function loadPortfolioPage() {
-	navPortfolioLink.classList.add('active');
-	$('#pageContent').load('./view/portfoliocontent.php');
+	for (var i = 0; i < navContactLink.classList.length; i++) {
+		if (navContactLink.classList[i] == 'active') {
+			alert('Class: ' + navContactLink.classList[i]);
+		}
+	}
+	for (var i = 0; i < navPortfolioLink.classList.length; i++) {
+		if (navPortfolioLink.classList[i] == 'active') {
+			alert('Class: ' + navPortfolioLink.classList[i]);
+		}
+	}
+	if (name == 'home') {
+		this.navHomeLink.classList.add('active');
+		$('#pageContent').load('./view/homecontent.php');
+	} else if (name == 'contact') {
+		this.navContactLink.classList.add('active');
+		$('#pageContent').load('./view/contactform.php');
+	} else if (name == 'portfolio') {
+		this.navPortfolioLink.classList.add('active');
+		$('#pageContent').load('./view/portfoliocontent.php');
+	}
 }

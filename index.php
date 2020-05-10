@@ -9,7 +9,6 @@
 <!-- Material Design Bootstrap Core CSS & Custom Style Sheets, Font Awesome CSS -->
 <link href='./resources/css/bootstrap.min.css' rel='stylesheet'>
 <link href='./resources/css/mdb.min.css' rel='stylesheet'>
-<link href='./resources/css/style.min.css' rel='stylesheet'>
 <link href='./resources/css/pcdus-style.css' rel='stylesheet'>
 <link rel='stylesheet'
 	href='https://use.fontawesome.com/releases/v5.11.2/css/all.css'>
@@ -39,7 +38,7 @@
 					<li id='navContactLink' class='nav-item'><a class='nav-link'
 						href='#' onclick='navBarItemClicked("contact");'>Contact
 							Information</a></li>
-					<li id='portfolioPageLink' class='nav-item'><a class='nav-link'
+					<li id='navPortfolioLink' class='nav-item'><a class='nav-link'
 						href='#' onclick='navBarItemClicked("portfolio");'>Portfolio</a></li>
 				</ul>
 				<!-- Right -->
