@@ -40,6 +40,8 @@
 							Information</a></li>
 					<li id='navPortfolioLink' class='nav-item'><a class='nav-link'
 						href='#' onclick='navBarItemClicked("portfolio");'>Portfolio</a></li>
+					<li id='navBlogLink' class='nav-item'><a class='nav-link' href='#'
+						onclick='navBarItemClicked("blog");'>Blog</a></li>
 				</ul>
 				<!-- Right -->
 				<ul class='navbar-nav nav-flex-icons'>
@@ -103,7 +105,7 @@
 <script type='text/javascript' src='./resources/js/popper.min.js'></script>
 <script type='text/javascript' src='./resources/js/bootstrap.min.js'></script>
 <script type='text/javascript' src='./resources/js/mdb.min.js'></script>
-<script type='text/javascript' src='./resources/js/pcdus-js.js'></script>
+<script type='text/javascript' src='./resources/js/pcdusjs/pcdus-js.js'></script>
 <!-- var navHomeLink = null; -->
 <!-- var navContactLink = null; -->
 

@@ -20,8 +20,9 @@
 		</div>
 	</div>
 	<?php //TODO: FINISH THE MATERIAL DESIGN OF CONTACT FORM?>
-	<form id='contact-form' method='post' action='./script/sendemail.php'
-		role='form' class='md-form'>
+	<form id='contact-form' method='post'
+		action='./resources/js/pcdusjs/sendemail.php' role='form'
+		class='md-form'>
 		<div class='messages'></div>
 		<div class='controls form-group'>
 			<div class='row'>
@@ -50,8 +51,9 @@
 				<div class='col-md-12'>
 					<div class='md-form'>
 						<textarea rows='5' name='visitor_msg' id='contact_form'
-							class='form-control' required='required'></textarea>
-						<label for='contact_form' class='' style='color: gold;'>Message</label>
+							class='form-control' required='required' style='color: gold;'></textarea>
+						<label for='contact_form' class='' style='color: gold;'><span
+							style='color: gold;'>Message</span></label>
 					</div>
 				</div>
 			</div>
