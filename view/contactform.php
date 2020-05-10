@@ -21,7 +21,7 @@
 	</div>
 	<?php //TODO: FINISH THE MATERIAL DESIGN OF CONTACT FORM?>
 	<form id='contact-form' method='post'
-		action='./resources/js/pcdusjs/sendemail.php' role='form'
+		action='./resources/pcdusscript/pcdus-send-email.php' role='form'
 		class='md-form'>
 		<div class='messages'></div>
 		<div class='controls form-group'>

@@ -105,7 +105,7 @@
 <script type='text/javascript' src='./resources/js/popper.min.js'></script>
 <script type='text/javascript' src='./resources/js/bootstrap.min.js'></script>
 <script type='text/javascript' src='./resources/js/mdb.min.js'></script>
-<script type='text/javascript' src='./resources/js/pcdusjs/pcdus-js.js'></script>
+<script type='text/javascript' src='./resources/pcdusscript/pcdus-js.js'></script>
 <!-- var navHomeLink = null; -->
 <!-- var navContactLink = null; -->
 
