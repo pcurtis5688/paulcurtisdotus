@@ -17,6 +17,7 @@ $message = "Inquirer Email: " . $visitor_email_re_address . "\r\nInquirer Full N
 /* EXECUTE MAIL FUNCTION WITH VARS, HANDLE SUCCESS/FAIL */
 if (mail ( $to, $subject, $message, $headers )) {
 	header ( "Location: https://www.paulcurtis.us/index.php\r\nInquirerEmail: " . $visitor_email_re_address . "\r\n" );
-} else // TODO: EXTREMELY RARE FAILURE, BUT THIS IS SLOPPY CLOSE
+} else
+	// TODO: EXTREMELY RARE FAILURE, BUT THIS IS SLOPPY CLOSE
 	echo "<!DOCTYPE html><html><head><title>Email Server Error</title></head><body>A Server Error Occured while attempting to send your email! We apologize! Save your work if it's still on-hand and try again at a later time. Or contact your site development team.</body></html>";
 ?>
