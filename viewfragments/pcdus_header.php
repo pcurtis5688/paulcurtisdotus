@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<script type="text/javascript"
-	src="./resources/pcdusscript/pcdus-script.js"></script>
-</head>
-<!--  HEADER BOOTSTRAP NAVIGATION BAR -->
+<?php /* HEADER NAV BAR PHP FRAGMENT ///*/ ?>
 <nav
 	class="navbar fixed-top navbar-expand-lg 
 			navbar-dark scrolling-navbar textalign">

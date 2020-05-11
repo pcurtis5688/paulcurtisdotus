@@ -1,4 +1,4 @@
 <?php
-include_once ("./index.php");
+header ( "Location: https://paulcurtis.us/index.php" );
 ?>
-<script type="text/javascript">navBarItemClicked('blog');</script>
+<script type="text/javascript">navBarItemClicked("blog");</script>
