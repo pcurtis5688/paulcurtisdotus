@@ -7,9 +7,12 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <title>PaulCurtis.us || Home</title>
 <!-- Material Design Bootstrap Core CSS & Custom Style Sheets, Font Awesome CSS -->
-<link href="resources/css/bootstrap.min.css" rel="stylesheet">
-<link href="resources/css/mdb.min.css" rel="stylesheet">
-<link href="pcdusresources/style/pcdus-style.css" rel="stylesheet">
+<link href="./external_resources/css/bootstrap.min.css"
+	type="text/javascript" rel="stylesheet">
+<link href="./external_resources/css/mdb.min.css" type="text/javascript"
+	rel="stylesheet">
+<link href="./pcdus_customresources/style/pcdus-style.css"
+	type="text/javascript" rel="stylesheet">
 <link rel="stylesheet" type="text/css"
 	href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 </head>
@@ -17,7 +20,7 @@
 <?php require_once ("viewfragments/pcdus_header.php"); ?>
 <!------------------- PAGE CONTENT------------------------------->
 <div class="view full-page-intro"
-	style="text-align: center; vertical-align: middle; background-image: url('resources/img/78.jpg'); background-repeat: no-repeat; background-size: cover;">
+	style="text-align: center; vertical-align: middle; background-image: url('external_resources/img/78.jpg'); background-repeat: no-repeat; background-size: cover;">
 	<div
 		class="mask rgba-black-light d-flex justify-content-center align-items-center">
 		<!-- Content -->
@@ -36,10 +39,13 @@
 <!------------------- FOOTER INCLUDE ---------------------------->
 <?php require_once ("viewfragments/pcdus_footer.php");?>
 </body>
-<script type="text/javascript" src="./resources/js/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="./resources/js/popper.min.js"></script>
-<script type="text/javascript" src="./resources/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="./resources/js/mdb.min.js"></script>
 <script type="text/javascript"
-	src="./pcdusresources/script/pcdus-script.js"></script>
+	src="./external_resources/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript"
+	src="./external_resources/js/popper.min.js"></script>
+<script type="text/javascript"
+	src="./external_resources/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./external_resources/js/mdb.min.js"></script>
+<script type="text/javascript"
+	src="./pcdus_customresources/script/pcdus-script.js"></script>
 </html>

@@ -3,7 +3,8 @@
 	class="navbar fixed-top navbar-expand-lg 
 			navbar-dark scrolling-navbar textalign">
 	<div class="container">
-		<a href="index.php"><img src="./resources/img/pcdus_graphic.png"
+		<a href="index.php"><img
+			src="./external_resources/img/pcdus_graphic.png"
 			alt="www.PaulCurtis.us" /></a>
 
 		<!-- TOGGLE DROPDOWN NAV BUTTON -->
