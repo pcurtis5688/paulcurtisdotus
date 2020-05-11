@@ -4,20 +4,19 @@
 
 function navBarItemClicked(name) {
 	var navHomeLink = document.getElementById('navHomeLink');
+	var navContactLink = document.getElementById('navContactLink');
+	var navPortfolioLink = document.getElementById('navPortfolioLink');
+
 	for (var i = 0; i < navHomeLink.classList.length; i++) {
 		if (navHomeLink.classList[i] == 'active') {
 			navHomeLink.classList.remove('active');
 		}
 	}
-
-	var navContactLink = document.getElementById('navContactLink');
 	for (var i = 0; i < navContactLink.classList.length; i++) {
 		if (navContactLink.classList[i] == 'active') {
 			navContactLink.classList.remove('active');
 		}
 	}
-
-	var navPortfolioLink = document.getElementById('navPortfolioLink');
 	for (var i = 0; i < navPortfolioLink.classList.length; i++) {
 		if (navPortfolioLink.classList[i] == 'active') {
 			navPortfolioLink.classList.remove('active');
@@ -34,4 +33,6 @@ function navBarItemClicked(name) {
 		this.navPortfolioLink.classList.add('active');
 		$('#pageContent').load('./view/portfoliocontent.php');
 	}
+	// COLLAPSE THE NAVIGATION LAST 
+	$('.collapse').collapse('hide');
 }

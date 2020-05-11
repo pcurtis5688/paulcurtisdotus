@@ -30,13 +30,14 @@
 					<input id='contact_form' type='text' name='first_name'
 						class='form-control' required='required'
 						data-error='First Name is required.'><label for='contact_form'
-						class='' style='color: gold;'>First Name</label>
+						class='' style='color: gold;'><span style='margin-left: 25em;'>First
+							Name</span></label>
 				</div>
 				<div class='col-md-6'>
 					<input id='contact_form' type='text' name='last_name'
 						class='form-control' required='required'
 						data-error='Last Name is required.'><label for='contact_form'
-						style='color: gold;' class=''>Last Name</label>
+						class='' style='color: gold;'>Last Name</label>
 				</div>
 			</div>
 			<div class='row'>
@@ -58,7 +59,7 @@
 				</div>
 			</div>
 			<div class='row'>
-				<div class='col-md-12'>
+				<div class='col-md-6' style='margin-left: 25%; margin-right: 25%;'>
 					<input type='submit' class='btn btn-primary btn-send colorRed'
 						id='contact_form' value='Send Message'>
 				</div>

@@ -103,7 +103,6 @@ html, body, header, .view {
 	}
 }
 
-}
 .page-footer {
 	margin-top: 0px;
 }
@@ -111,6 +110,7 @@ html, body, header, .view {
 #pageContent {
 	width: 100%;
 	text-align: center;
+	vertical-align: middle;
 }
 
 /* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
