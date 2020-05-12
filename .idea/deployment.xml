@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" serverName="PaulCurtisDotUS">
     <serverData>
-      <paths name="localhost">
+      <paths name="PaulCurtisDotUS">
         <serverdata>
           <mappings>
-            <mapping deploy="/PaulCurtisDotUS/" local="$PROJECT_DIR$" web="https://127.0.0.1/PaulCurtisDotUS/" />
-            <mapping local="$PROJECT_DIR$/external_resources" web="https://127.0.0.1/PaulCurtisDotUS/external_resources/" />
+            <mapping local="$PROJECT_DIR$" web="/PaulCurtisDotUS/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="localhost:80/">
+      <paths name="localhost">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

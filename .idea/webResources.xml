@@ -7,6 +7,7 @@
           <resourceRoots>
             <path value="file://$PROJECT_DIR$/external_resources" />
             <path value="file://$PROJECT_DIR$/pcdus_customresources" />
+            <path value="file://$PROJECT_DIR$/viewfragments" />
           </resourceRoots>
         </entryData>
       </entry>

@@ -16,12 +16,12 @@
     <link rel="stylesheet" type="text/css"
           href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 </head>
-
+<body>
 <!------------------- HEADER INCLUDE--------------------------->
 <?php require_once("viewfragments/pcdus_header.php"); ?>
 <!------------------- PAGE CONTENT------------------------------->
 <div class="view full-page-intro"
-     style="text-align: center; vertical-align: middle; background-image: url('external_resources/img/78.jpg'); background-repeat: no-repeat; background-size: cover;">
+     style="text-align: center; vertical-align: middle; background-image: url('pcdus_customresources/img/78.jpg'); background-repeat: no-repeat; background-size: cover;">
     <div
             class="mask rgba-black-light d-flex justify-content-center align-items-center">
         <!-- Content -->
