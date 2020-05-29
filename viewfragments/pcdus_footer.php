@@ -4,10 +4,10 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>PaulCurtis.us || Home</title>
-    <link href="../external_resources/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../external_resources/css/mdb.min.css" rel="stylesheet">
+    <link href="/external_resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/external_resources/css/mdb.min.css" rel="stylesheet">
     <link type="text/css"
-          href="../pcdus_customresources/style/pcdus-style.css" rel="stylesheet">
+          href="/pcdus_customresources/style/pcdus-style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css"
           href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 </head>
@@ -25,9 +25,10 @@
             echo '<img src="' . $linkedin_sm_img_path . '" alt="LinkedIn" height="58" width="68"'; ?></a>
         <a href="https://github.com/pcurtis5688" target="_blank">
             <?php $github_sm_img_path = "external_resources/img/GitHub-Mark-64px.png";
-            echo '<img src="' . $github_sm_img_path . '" alt="GitHub"'; ?></a>
+            echo '<img src="' . $github_sm_img_path . '" alt="GitHub"'; ?>
+        </a>
     </div>
-    <div class="footer-copyright" style="padding-top:10px;
+    <div class="footer-copyright py-3" style="padding-top:10px;
     padding-bottom:20px;">Paul Curtis || pcurtis5688@gmail.com
         || 412-716-0747 || 484-442-0052
     </div>

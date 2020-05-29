@@ -1,25 +1,27 @@
+<!DOCTYPE html>
+<html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>PaulCurtis.us || Home</title>
-    <!-- Material Design Bootstrap Core CSS & Custom Style Sheets, Font Awesome CSS -->
-    <link href="/external_resources/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/external_resources/css/mdb.min.css" rel="stylesheet">
-    <link type="text/css" href="/pcdus_customresources/style/pcdus-style.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <?php $btstrpMinPath = 'external_resources/css/bootstrap.min.css';
+    echo '<link href="' . $btstrpMinPath . '" rel="stylesheet"';
+    $mdbPath = 'external_resources/css/mdb.min.css';
+    echo '<link href="' . $mdbPath . '" rel="stylesheet"';
+    $pcdusStylePath = 'pcdus_customresources/style/pcdus-style.css';
+    echo '<link href="' . $pcdusStylePath . '" rel="stylesheet">';
+    $fontawesomepath = 'https://use.fontawesome.com/releases/v5.11.2/css/all.css';
+    echo '<link rel="stylesheet" type="text/css" href="' . $fontawesomepath . '"/>'; ?>
 </head>
-<?php /* HEADER NAV BAR PHP FRAGMENT ///*/ ?>
 <nav
         class="navbar fixed-top navbar-expand-lg
 			navbar-dark scrolling-navbar textalign">
     <div class="container">
-        <a href="/index.php"> <?php $pcdus_main_graphic_path = "external_resources/img/pcdus_graphic.png";
+        <a href="index.php"> <?php $pcdus_main_graphic_path = "external_resources/img/pcdus_graphic.png";
             echo '<img src="' . $pcdus_main_graphic_path . '" alt="www.PaulCurtis.us"'; ?>
         </a>
-
-        <!-- TOGGLE DROPDOWN NAV BUTTON -->
         <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="true"
@@ -64,3 +66,4 @@
         </div>
     </div>
 </nav>
+</html>

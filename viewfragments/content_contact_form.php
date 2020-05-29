@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css"
           href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 </head>
+<body>
 <form id="contact-form" method="post"
       action="/pcdus_customresources/script/pcdus-send-email.php"
       role="form" class="md-form" style="margin-left: 7%; margin-right: 7%;">
@@ -89,3 +90,4 @@
 <script type="text/javascript" src="/external_resources/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/external_resources/js/mdb.min.js"></script>
 <script type="text/javascript" src="/pcdus_customresources/script/pcdus-script.js"></script>
+</body>
