@@ -8,7 +8,7 @@
     <link href="/external_resources/css/bootstrap.min.css" rel="stylesheet">
     <link href="/external_resources/css/mdb.min.css" rel="stylesheet">
     <link type="text/css"
-          href="/pcdus_customresources/style/pcdus-style.css" rel="stylesheet">
+          href="/resources/css/pcdus-style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css"
           href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 </head>

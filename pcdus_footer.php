@@ -9,7 +9,7 @@
     ?>
     <link href="/external_resources/css/mdb.min.css" rel="stylesheet">
     <link type="text/css"
-          href="/pcdus_customresources/style/pcdus-style.css" rel="stylesheet">
+          href="/resources/css/pcdus-style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css"
           href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 </head>
@@ -17,7 +17,7 @@
 <footer class="page-footer text-center font-small wow fadeIn" style="padding-top: 15px;">
     <div>
         <a class="btn btn-outline-white"
-           href="../documents/Paul_Curtis_Resume_May_2020.pdf" target="_blank"
+           href="documents/Paul_Curtis_Resume_May_2020.pdf" target="_blank"
            role="button">Download CV / Resume<i class="fas fa-download ml-2"></i>
         </a>
     </div>

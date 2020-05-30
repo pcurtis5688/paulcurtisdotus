@@ -47,7 +47,7 @@
                 </ul>
                 <ul class="navbar-nav nav-flex-icons">
                     <li class="nav-item"><a
-                                href="../documents/Paul_Curtis_Resume_May_2020.pdf"
+                                href="documents/Paul_Curtis_Resume_May_2020.pdf"
                                 class="nav-link border border-light rounded" target="_blank">Resume</a></li>
                     <li class="nav-item"><a
                                 href="https://www.linkedin.com/in/paulcphilly/"

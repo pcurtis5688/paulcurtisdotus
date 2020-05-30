@@ -17,7 +17,7 @@ $message = "Message: " . $visitor_message . "\r\n";
 /* EXECUTE MAIL FUNCTION WITH VARS, HANDLE SUCCESS/FAIL */
 if (mail($to, $subject, $message, $headers)) {
     // TODO: THIS IS WAY TOO LAZY TO DO THIS...?
-    echo "<script type='text/javascript'>alert('Your Message has been sent successfully!');</script>";
+    echo "<phpscripts type='text/javascript'>alert('Your Message has been sent successfully!');</phpscripts>";
     header("Location: https://www.paulcurtis.us/index.php");
 } else
     echo "<!DOCTYPE html><html><head><title>Email Server Error</title></head><body>A Server Error Occured while attempting to send your email! We apologize! Save your work if it's still on-hand and try again at a later time. Or contact your site development team.</body></html>";

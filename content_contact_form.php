@@ -7,13 +7,13 @@
     <!-- Material Design Bootstrap Core CSS & Custom Style Sheets, Font Awesome CSS -->
     <link href="/external_resources/css/bootstrap.min.css" rel="stylesheet">
     <link href="/external_resources/css/mdb.min.css" rel="stylesheet">
-    <link type="text/css" href="/pcdus_customresources/style/pcdus-style.css" rel="stylesheet">
+    <link type="text/css" href="/resources/css/pcdus-style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css"
           href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 </head>
 <body>
 <form id="contact-form" method="post"
-      action="/pcdus_customresources/script/pcdus-send-email.php"
+      action="/resources/phpscripts/pcdus-send-email.php"
       role="form" class="md-form" style="margin-left: 7%; margin-right: 7%;">
     <div class="text-xxl-center">
         <div class="row">
@@ -89,5 +89,5 @@
 <script type="text/javascript" src="/external_resources/js/popper.min.js"></script>
 <script type="text/javascript" src="/external_resources/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/external_resources/js/mdb.min.js"></script>
-<script type="text/javascript" src="/pcdus_customresources/script/pcdus-script.js"></script>
+<script type="text/javascript" src="/resources/js/pcdus-script.js"></script>
 </body>
