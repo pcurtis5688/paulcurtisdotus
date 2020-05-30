@@ -31,7 +31,7 @@ function navBarItemClicked(name) {
         $('#pageContent').load('./viewfragments/content_contact_form.php');
     } else if (name === 'portfolio') {
         navPortfolioLink.classList.add('active');
-        $('#pageContent').load('./viewfragments/content_portfolio.php');
+        $('#pageContent').load('./viewfragments/pcdus_portfolio.php');
     }
     // COLLAPSE THE NAVIGATION LAST
     let collapseElems = new Array(document.getElementsByClassName('collapse'));

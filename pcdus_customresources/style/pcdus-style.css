@@ -25,7 +25,7 @@
     url(//iconfonts/MaterialIcons-Regular.woff2) format(' woff2'),
     url(//iconfonts/MaterialIcons-Regular.woff) format('woff'),
     url(//iconfonts/MaterialIcons-Regular.ttf) format('truetype');
-    src: url('resources/iconfonts/MaterialIcons-Regular.eot');
+    src: url('//iconfonts/MaterialIcons-Regular.eot');
 }
 
 .material-icons {
@@ -104,24 +104,14 @@ html, body, header, .view {
 }
 
 .page-footer {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 #pageContent {
     width: 100%;
+    height: auto;
     text-align: center;
-    vertical-align: middle;
-}
-
-/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
-html, body, .view {
-    height: 100%;
-}
-
-@media ( max-width: 740px) {
-    .full-page-intro {
-        height: 1000px;
-    }
+    vertical-align: central;
 }
 
 /* Half Page Carousel itself*/

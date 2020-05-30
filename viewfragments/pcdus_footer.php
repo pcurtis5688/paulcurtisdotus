@@ -4,7 +4,9 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>PaulCurtis.us || Home</title>
-    <link href="/external_resources/css/bootstrap.min.css" rel="stylesheet">
+    <?php $bootstrapCssPath = 'external_resources/css/bootstrap.min.css';
+    echo '<link src="' . $bootstrapCssPath . '" rel="stylesheet">';
+    ?>
     <link href="/external_resources/css/mdb.min.css" rel="stylesheet">
     <link type="text/css"
           href="/pcdus_customresources/style/pcdus-style.css" rel="stylesheet">

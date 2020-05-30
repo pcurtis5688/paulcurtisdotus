@@ -7,14 +7,10 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>PaulCurtis.us || Home</title>
     <!-- Material Design Bootstrap Core CSS & Custom Style Sheets, Font Awesome CSS -->
-    <?php $btstrpMinPath = '/external_resources/css/bootstrap.min.css';
-    echo '<link href="' . $btstrpMinPath . '" rel="stylesheet" type="text/javascript"'; ?>
-    <link href="./external_resources/css/mdb.min.css" type="text/javascript"
-          rel="stylesheet">
-    <link href="/pcdus_customresources/style/pcdus-style.css"
-          type="text/javascript" rel="stylesheet">
-    <link rel="stylesheet" type="text/css"
-          href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <style type="text/css">
+        <?php include_once('resources/css/bootstrap.min.css'); include_once('resources/css/mdb.min.css');
+        include_once('pcdus_customresources/style/pcdus-style.css'); ?>
+    </style>
 </head>
 <body>
 <!------------------- HEADER INCLUDE--------------------------->
@@ -25,29 +21,29 @@
      background-image: url('external_resources/img/78.jpg'); background-repeat: no-repeat; background-size: cover;">
     <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
         <!-- Content -->
-        <div class="container" style="margin-top: 5em;">
+        <div class="container" style="margin-top: 5em; min-height:100%;">
             <!--Grid row-->
             <div class="row wow fadeIn text-center">
-                <!--Grid column-->
-                <div id="pageContent" class="white-text text-center" style="width: 100%;">
-                    <?php require_once('viewfragments/content_home.php'); ?>
-                </div>
+                <!--Grid column--
+                <div id="pageContent" class="white-text text-center" style="width: 100%; background-size:100%;">
+                    <?php require_once('viewfragments/pcdus_homecontent.php'); ?>
+                </div>c
             </div>
         </div>
     </div>
 </div>
 <!------------------- FOOTER INCLUDE ---------------------------->
-<?php include_once('viewfragments/pcdus_footer.php');
-$jquerypath = '/external_resources/js/jquery-3.4.1.min.js';
-echo '<script type="text/javascript" src="' . $jquerypath . '" ></script>';
-$popperPath = '/external_resources/js/popper.min.js';
-echo '<script type="text/javascript" src="' . $popperPath . '" ></script>';
-$bootstrapPath = '/external_resources/js/bootstrap.min.js';
-echo '<script type="text/javascript" src="' . $bootstrapPath . '" />';
-$mdbPath = '/external_resources/js/mdb.min.js';
-echo '<script type="text/javascript" src="' . $mdbPath . '" ></script>';
-$pcdusScriptPath = '/pcdus_customresources/script/pcdus-script.js';
-echo '<script type="text/javascript" src="' . $pcdusScriptPath . '" ></script>';
-?>
+                <?php include_once('viewfragments/pcdus_footer.php');
+                $jquerypath = '/external_resources/js/jquery-3.4.1.min.js';
+                echo '<script type="text/javascript" src="' . $jquerypath . '" ></script>';
+                $popperPath = '/external_resources/js/popper.min.js';
+                echo '<script type="text/javascript" src="' . $popperPath . '" ></script>';
+                $bootstrapPath = '/external_resources/js/bootstrap.min.js';
+                echo '<script type="text/javascript" src="' . $bootstrapPath . '" />';
+                $mdbPath = '/external_resources/js/mdb.min.js';
+                echo '<script type="text/javascript" src="' . $mdbPath . '" ></script>';
+                $pcdusScriptPath = '/pcdus_customresources/script/pcdus-script.js';
+                echo '<script type="text/javascript" src="' . $pcdusScriptPath . '" ></script>';
+                ?>
 </body>
 </html>

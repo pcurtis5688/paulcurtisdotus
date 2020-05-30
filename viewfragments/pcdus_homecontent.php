@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html>
+<!doctype HTML>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport"
@@ -13,18 +13,19 @@
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 </head>
 <body>
-<div class='text-md-center' style='color: gold; font-weight: bolder;'>
-    Greetings and welcome. I am hoping to keep this up-to-date with some of
+<div class='text-md-center' style='color: gold; font-weight: bolder;'>Greetings and welcome. I am hoping to keep this
+    up-to-date with some of
     my current endeavors and I am always open to discussing new
     opportunities. Feel free to reach out any time!<br> <br>Paul Curtis<br>
     <a href='mailto:pcurtis5688@gmail.com' target='_BLANK'>pcurtis5688@gmail.com</a><br>
     Mobile: <a href='tel:1-412-716-0747'>412-716-0747</a><br> Work No.: <a
             href='tel:1-484-442-0052'>484-442-0052</a><br>
 </div>
-<script type="text/javascript" src="/external_resources/js/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="/external_resources/js/popper.min.js"></script>
-<script type="text/javascript" src="/external_resources/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/external_resources/js/mdb.min.js"></script>
-<script type="text/javascript" src="/pcdus_customresources/script/pcdus-script.js"></script>
 </body>
+<script>
+    <?php include_once('external_resources/js/jquery-3.4.1.min.js');
+    include_once('external_resources/js/popper.min.js');
+    include_once('external_resources/js/bootstrap.min.js');
+    include_once('external_resources/js/mdb.min.js');
+    include_once('pcdus_customresources/script/pcdus-script.js'); ?></script>
 </html>

@@ -1,25 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>PaulCurtis.us || Home</title>
-    <?php $btstrpMinPath = 'external_resources/css/bootstrap.min.css';
-    echo '<link href="' . $btstrpMinPath . '" rel="stylesheet"';
-    $mdbPath = 'external_resources/css/mdb.min.css';
-    echo '<link href="' . $mdbPath . '" rel="stylesheet"';
-    $pcdusStylePath = 'pcdus_customresources/style/pcdus-style.css';
-    echo '<link href="' . $pcdusStylePath . '" rel="stylesheet">';
-    $fontawesomepath = 'https://use.fontawesome.com/releases/v5.11.2/css/all.css';
-    echo '<link rel="stylesheet" type="text/css" href="' . $fontawesomepath . '"/>'; ?>
+    <style type="text/css">
+        <?php
+        include_once('external_resources/css/bootstrap.min.css');
+        include_once('external_resources/css/mdb.min.css');
+        include_once('pcdus_customresources/style/pcdus-style.css');
+        ?>
+    </style>
 </head>
-<nav
-        class="navbar fixed-top navbar-expand-lg
-			navbar-dark scrolling-navbar textalign">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar textalign"
+     style="font-family: 'Adobe Caslon Pro Bold',sans-serif; font-size: 24pt;">
     <div class="container">
-        <a href="index.php"> <?php $pcdus_main_graphic_path = "external_resources/img/pcdus_graphic.png";
+        <a href="https://paulcurtis.us/"> <?php $pcdus_main_graphic_path = "external_resources/img/pcdus_graphic.png";
             echo '<img src="' . $pcdus_main_graphic_path . '" alt="www.PaulCurtis.us"'; ?>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse"
