@@ -112,6 +112,7 @@ html, body, header, .view {
     height: auto;
     text-align: center;
     vertical-align: central;
+    margin-top: 5em;
 }
 
 /* Half Page Carousel itself*/
@@ -169,4 +170,9 @@ html, body, header, .view {
 
 .contactFormLabel {
     color: gold;
+}
+
+.container {
+    min-width: 100%;
+    height: auto;
 }

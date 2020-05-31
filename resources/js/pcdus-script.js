@@ -24,11 +24,11 @@ function navBarItemClicked(name) {
 
     if (name === 'home') {
         navHomeLink.classList.add('active');
-        $('#pageContent').load('./viewfragments/content_contact_form.php');
+        $('#pageContent').load('./viewfragments/pcdus_contact_form.php');
     } else if (name === 'contact') {
         navContactLink.classList.add('active');
-        //pageContent.load('./viewfragments/content_contact_form.php');
-        $('#pageContent').load('./viewfragments/content_contact_form.php');
+        //pageContent.load('./viewfragments/pcdus_contact_form.php');
+        $('#pageContent').load('./viewfragments/pcdus_contact_form.php');
     } else if (name === 'portfolio') {
         navPortfolioLink.classList.add('active');
         $('#pageContent').load('./viewfragments/pcdus_portfolio.php');

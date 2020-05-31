@@ -14,11 +14,11 @@
 </head>
 <?php echo 'hii world'; ?>
 <script type="text/javascript"
-        src="./external_resources/js/jquery-3.4.1.min.js"></script>
+        src="../external_resources/js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript"
-        src="./external_resources/js/popper.min.js"></script>
+        src="../external_resources/js/popper.min.js"></script>
 <script type="text/javascript"
-        src="./external_resources/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="./external_resources/js/mdb.min.js"></script>
+        src="../external_resources/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../external_resources/js/mdb.min.js"></script>
 <script type="text/javascript"
         src="./pcdus_customresources/script/pcdus-script.js"></script>

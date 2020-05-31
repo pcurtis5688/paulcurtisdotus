@@ -12,7 +12,7 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <body>
 <!------------------- HEADER INCLUDE--------------------------->
-<?php include_once('pcdus_header.php'); ?>
+<?php include_once('fragments/pcdus_header.php'); ?>
 <!------------------- PAGE CONTENT------------------------------->
 <div class="view full-page-intro"
      style="text-align: center; vertical-align: middle;
@@ -24,14 +24,14 @@
             <div class="row wow fadeIn text-center">
                 <!--Grid column-->
                 <div id="pageContent" class="white-text text-center" style="width: 100%; background-size:100%;">
-                    <?php require_once('pcdus_homecontent.php'); ?>
+                    <?php require_once('fragments/pcdus_homecontent.php'); ?>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <!------------------- FOOTER INCLUDE ---------------------------->
-<?php include_once('pcdus_footer.php');
+<?php include_once('fragments/pcdus_footer.php');
 $jquerypath = '/external_resources/js/jquery-3.4.1.min.js';
 echo '<script type="text/javascript" src="' . $jquerypath . '" ></script>';
 $popperPath = '/external_resources/js/popper.min.js';
